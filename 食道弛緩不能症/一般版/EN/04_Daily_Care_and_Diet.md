@@ -163,7 +163,7 @@ Whether you have undergone pneumatic dilation, POEM, or Heller myotomy, dietary 
 - Monitor for discomfort; if difficulty arises, revert to the previous phase
 
 ```mermaid
-graph LR
+graph TD
     A[Clear Liquids<br/>Days 1–2] --> B[Full Liquids<br/>Days 2–5]
     B --> C[Soft Diet<br/>Day 5 to Week 2]
     C --> D[Regular Diet<br/>Weeks 2–4 onward]

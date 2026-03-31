@@ -156,7 +156,7 @@ Prehabilitation has become increasingly recognized as an important preparation. 
 ## Preoperative Preparation Timeline
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Confirmed diagnosis<br/>and staging] --> B[MDT team<br/>discusses treatment plan]
     B --> C{Neoadjuvant<br/>therapy needed?}
     C -->|Yes| D[Neoadjuvant<br/>chemoradiation<br/>approx. 5-6 weeks]
