@@ -7,18 +7,22 @@
   <link rel="stylesheet" href="$css_path$css/medical.css">
   <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
   <script>
+    // Disable auto-start so we can fix Pandoc output first
+    mermaid.initialize({startOnLoad: false, theme: 'default', securityLevel: 'loose'});
+
     document.addEventListener('DOMContentLoaded', function() {
       // Fix Pandoc output: <pre class="mermaid"><code>...</code></pre>
-      // Mermaid needs: <pre class="mermaid">...</pre> with raw text
+      // Mermaid needs: <div class="mermaid">raw text</div>
       document.querySelectorAll('pre.mermaid').forEach(function(pre) {
         var code = pre.querySelector('code');
         if (code) {
-          // Get the text content (automatically decodes HTML entities)
-          pre.textContent = code.textContent;
-          pre.classList.add('mermaid');
+          var div = document.createElement('div');
+          div.className = 'mermaid';
+          div.textContent = code.textContent;
+          pre.parentNode.replaceChild(div, pre);
         }
       });
-      mermaid.initialize({startOnLoad: true, theme: 'default', securityLevel: 'loose'});
+      // Now render all mermaid diagrams
       mermaid.run();
     });
   </script>
