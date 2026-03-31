@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>食道疾病衛教資料 Esophageal Disease Patient Education</title>
+  <link rel="stylesheet" href="css/medical.css">
+  <style>
+    .hero {
+      background: linear-gradient(135deg, #1565C0, #0D47A1);
+      color: white; padding: 40px 30px; border-radius: 12px;
+      margin-bottom: 30px; text-align: center;
+    }
+    .hero h1 { font-size: 2em; border: none; color: white; margin: 0 0 8px; padding: 0; }
+    .hero p { opacity: 0.9; font-size: 1.05em; }
+    .stats { display: flex; gap: 15px; flex-wrap: wrap; margin: 25px 0; justify-content: center; }
+    .stat-box {
+      background: white; border: 1px solid #E0E0E0; border-radius: 8px;
+      padding: 12px 25px; text-align: center; min-width: 100px;
+    }
+    .stat-box .num { font-size: 1.8em; font-weight: bold; color: #1565C0; }
+    .stat-box .label { font-size: 0.8em; color: #616161; }
+    .topic-section {
+      background: white; border: 1px solid #E0E0E0; border-radius: 10px;
+      padding: 25px 30px; margin: 25px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .topic-section h2 { border-left: 5px solid #1565C0; margin-top: 0; }
+    .topic-desc { color: #616161; margin-bottom: 15px; font-size: 0.95em; }
+    .version-tabs { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 15px; }
+    .version-tab {
+      padding: 6px 16px; border-radius: 20px; font-size: 0.85em;
+      background: #E3F2FD; color: #1565C0; cursor: pointer; border: none;
+      font-family: inherit;
+    }
+    .version-tab:hover, .version-tab.active { background: #1565C0; color: white; }
+    .file-list { list-style: none; padding: 0; }
+    .file-list li {
+      padding: 8px 0; border-bottom: 1px solid #F5F5F5;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .file-list li:last-child { border-bottom: none; }
+    .file-list .num {
+      background: #1565C0; color: white; width: 24px; height: 24px;
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      font-size: 0.75em; flex-shrink: 0;
+    }
+    .file-list a { color: #212121; text-decoration: none; }
+    .file-list a:hover { color: #1565C0; }
+    .shared-bar {
+      text-align: center; margin: 20px 0;
+    }
+    .shared-bar a {
+      display: inline-block; margin: 4px 6px; padding: 8px 20px;
+      border-radius: 20px; background: #E3F2FD; color: #1565C0;
+      font-size: 0.9em;
+    }
+    .shared-bar a:hover { background: #1565C0; color: white; text-decoration: none; }
+    .lang-switch { display: none; }
+    .lang-switch.active { display: block; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>食道疾病衛教資料</h1>
+    <p>Esophageal Disease Patient Education</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat-box"><div class="num">3</div><div class="label">主題 Topics</div></div>
+    <div class="stat-box"><div class="num">63</div><div class="label">檔案 Files</div></div>
+    <div class="stat-box"><div class="num">2</div><div class="label">版本 Versions</div></div>
+    <div class="stat-box"><div class="num">2</div><div class="label">語言 Languages</div></div>
+  </div>
+
+  <div class="shared-bar">
+    <a href="共用/醫學名詞對照表_Glossary.html">醫學名詞對照表 Glossary</a>
+    <a href="共用/院內資料模板.html">院內資料模板</a>
+  </div>
+
+  <!-- ===== 食道癌微創手術 ===== -->
+  <div class="topic-section">
+    <h2>食道癌微創手術</h2>
+    <p class="topic-desc">Minimally Invasive Esophageal Cancer Surgery | MIE, RAMIE, NCCN/ESMO 指引</p>
+
+    <div class="version-tabs">
+      <button class="version-tab active" onclick="showVersion('cancer','zh-general')">一般版</button>
+      <button class="version-tab" onclick="showVersion('cancer','zh-advanced')">進階版</button>
+      <button class="version-tab" onclick="showVersion('cancer','en-general')">EN General</button>
+      <button class="version-tab" onclick="showVersion('cancer','en-advanced')">EN Advanced</button>
+    </div>
+
+    <div id="cancer-zh-general" class="lang-switch active">
+      <ul class="file-list">
+        <li><span class="num">1</span><a href="食道癌微創手術/一般版/01_疾病介紹.html">疾病介紹 — 食道癌類型、危險因子、症狀</a></li>
+        <li><span class="num">2</span><a href="食道癌微創手術/一般版/02_微創手術說明.html">微創手術說明 — MIE vs 開胸、機器人手術</a></li>
+        <li><span class="num">3</span><a href="食道癌微創手術/一般版/03_術前準備.html">術前準備 — 檢查、新輔助治療、營養</a></li>
+        <li><span class="num">4</span><a href="食道癌微創手術/一般版/04_術後照護與恢復.html">術後照護與恢復 — 恢復時程、飲食、管路</a></li>
+        <li><span class="num">5</span><a href="食道癌微創手術/一般版/05_常見問答FAQ.html">常見問答 FAQ — 15 題病人最常問的問題</a></li>
+      </ul>
+    </div>
+    <div id="cancer-zh-advanced" class="lang-switch">
+      <ul class="file-list">
+        <li><span class="num">1</span><a href="食道癌微創手術/進階版/01_流行病學與分期.html">流行病學與分期 — TNM 第 8 版、分子標記</a></li>
+        <li><span class="num">2</span><a href="食道癌微創手術/進階版/02_手術方式比較_MIE_vs_Open.html">MIE vs Open 比較 — MIRO/TIME/ROBOT 試驗</a></li>
+        <li><span class="num">3</span><a href="食道癌微創手術/進階版/03_國際指引摘要_NCCN_ESMO.html">國際指引 NCCN/ESMO — 治療演算法</a></li>
+        <li><span class="num">4</span><a href="食道癌微創手術/進階版/04_頂尖醫院與治療成果.html">頂尖醫院 — 美國/台灣手術中心</a></li>
+        <li><span class="num">5</span><a href="食道癌微創手術/進階版/05_臨床問答FAQ.html">臨床問答 FAQ — 12 題實務問題</a></li>
+      </ul>
+    </div>
+    <div id="cancer-en-general" class="lang-switch">
+      <ul class="file-list">
+        <li><span class="num">1</span><a href="食道癌微創手術/一般版/EN/01_Disease_Introduction.html">Disease Introduction</a></li>
+        <li><span class="num">2</span><a href="食道癌微創手術/一般版/EN/02_Minimally_Invasive_Surgery.html">Minimally Invasive Surgery</a></li>
+        <li><span class="num">3</span><a href="食道癌微創手術/一般版/EN/03_Pre_Surgery_Preparation.html">Pre-Surgery Preparation</a></li>
+        <li><span class="num">4</span><a href="食道癌微創手術/一般版/EN/04_Post_Surgery_Care_and_Recovery.html">Post-Surgery Care and Recovery</a></li>
+        <li><span class="num">5</span><a href="食道癌微創手術/一般版/EN/05_FAQ.html">FAQ</a></li>
+      </ul>
+    </div>
+    <div id="cancer-en-advanced" class="lang-switch">
+      <ul class="file-list">
+        <li><span class="num">1</span><a href="食道癌微創手術/進階版/EN/01_Epidemiology_and_Staging.html">Epidemiology and Staging</a></li>
+        <li><span class="num">2</span><a href="食道癌微創手術/進階版/EN/02_MIE_vs_Open_Comparison.html">MIE vs Open Comparison</a></li>
+        <li><span class="num">3</span><a href="食道癌微創手術/進階版/EN/03_International_Guidelines_NCCN_ESMO.html">International Guidelines NCCN/ESMO</a></li>
+        <li><span class="num">4</span><a href="食道癌微創手術/進階版/EN/04_Leading_Hospitals_and_Outcomes.html">Leading Hospitals and Outcomes</a></li>
+        <li><span class="num">5</span><a href="食道癌微創手術/進階版/EN/05_Clinical_FAQ.html">Clinical FAQ</a></li>
+      </ul>
+    </div>
+    <div style="text-align:right; margin-top:10px;">
+      <a href="食道癌微創手術/參考資源.html" style="font-size:0.85em;">參考資源 References →</a>
+    </div>
+  </div>
+
+  <!-- ===== 食道功能檢查 ===== -->
+  <div class="topic-section">
+    <h2>食道功能檢查</h2>
+    <p class="topic-desc">Esophageal Function Testing | HRM, Chicago Classification v4.0, Lyon Consensus 2.0</p>
+
+    <div class="version-tabs">
+      <button class="version-tab active" onclick="showVersion('function','zh-general')">一般版</button>
+      <button class="version-tab" onclick="showVersion('function','zh-advanced')">進階版</button>
+      <button class="version-tab" onclick="showVersion('function','en-general')">EN General</button>
+      <button class="version-tab" onclick="showVersion('function','en-advanced')">EN Advanced</button>
+    </div>
+
+    <div id="function-zh-general" class="lang-switch active">
+      <ul class="file-list">
+        <li><span class="num">1</span><a href="食道功能檢查/一般版/01_什麼是食道功能檢查.html">什麼是食道功能檢查 — 目的、誰需要做</a></li>
+        <li><span class="num">2</span><a href="食道功能檢查/一般版/02_檢查類型說明.html">檢查類型說明 — HRM、pH、阻抗、Bravo、FLIP</a></li>
+        <li><span class="num">3</span><a href="食道功能檢查/一般版/03_檢查前準備.html">檢查前準備 — 禁食、停藥、檢查清單</a></li>
+        <li><span class="num">4</span><a href="食道功能檢查/一般版/04_檢查流程與注意事項.html">檢查流程與注意事項 — 步驟、感受、術後</a></li>
+        <li><span class="num">5</span><a href="食道功能檢查/一般版/05_常見問答FAQ.html">常見問答 FAQ — 15 題常見問題</a></li>
+      </ul>
+    </div>
+    <div id="function-zh-advanced" class="lang-switch">
+      <ul class="file-list">
+        <li><span class="num">1</span><a href="食道功能檢查/進階版/01_高解析度食道壓力測定_HRM.html">高解析度食道壓力測定 HRM — 技術細節</a></li>
+        <li><span class="num">2</span><a href="食道功能檢查/進階版/02_Chicago分類v4.0.html">Chicago 分類 v4.0 — 分類架構、診斷標準</a></li>
+        <li><span class="num">3</span><a href="食道功能檢查/進階版/03_Lyon共識2.0與GERD診斷.html">Lyon 共識 2.0 — GERD 診斷流程</a></li>
+        <li><span class="num">4</span><a href="食道功能檢查/進階版/04_頂尖檢查中心.html">頂尖檢查中心 — 美國/台灣</a></li>
+        <li><span class="num">5</span><a href="食道功能檢查/進階版/05_臨床問答FAQ.html">臨床問答 FAQ — 13 題實務問題</a></li>
+      </ul>
+    </div>
+    <div id="function-en-general" class="lang-switch">
+      <ul class="file-list">
+        <li><span class="num">1</span><a href="食道功能檢查/一般版/EN/01_What_is_Esophageal_Function_Testing.html">What is Esophageal Function Testing</a></li>
+        <li><span class="num">2</span><a href="食道功能檢查/一般版/EN/02_Types_of_Tests.html">Types of Tests</a></li>
+        <li><span class="num">3</span><a href="食道功能檢查/一般版/EN/03_Pre_Test_Preparation.html">Pre-Test Preparation</a></li>
+        <li><span class="num">4</span><a href="食道功能檢查/一般版/EN/04_Test_Procedure_and_Precautions.html">Test Procedure and Precautions</a></li>
+        <li><span class="num">5</span><a href="食道功能檢查/一般版/EN/05_FAQ.html">FAQ</a></li>
+      </ul>
+    </div>
+    <div id="function-en-advanced" class="lang-switch">
+      <ul class="file-list">
+        <li><span class="num">1</span><a href="食道功能檢查/進階版/EN/01_High_Resolution_Manometry_HRM.html">High-Resolution Manometry HRM</a></li>
+        <li><span class="num">2</span><a href="食道功能檢查/進階版/EN/02_Chicago_Classification_v4.0.html">Chicago Classification v4.0</a></li>
+        <li><span class="num">3</span><a href="食道功能檢查/進階版/EN/03_Lyon_Consensus_2.0_and_GERD.html">Lyon Consensus 2.0 and GERD</a></li>
+        <li><span class="num">4</span><a href="食道功能檢查/進階版/EN/04_Leading_Testing_Centers.html">Leading Testing Centers</a></li>
+        <li><span class="num">5</span><a href="食道功能檢查/進階版/EN/05_Clinical_FAQ.html">Clinical FAQ</a></li>
+      </ul>
+    </div>
+    <div style="text-align:right; margin-top:10px;">
+      <a href="食道功能檢查/參考資源.html" style="font-size:0.85em;">參考資源 References →</a>
+    </div>
+  </div>
+
+  <!-- ===== 食道弛緩不能症 ===== -->
+  <div class="topic-section">
+    <h2>食道弛緩不能症</h2>
+    <p class="topic-desc">Esophageal Achalasia | POEM, Heller Myotomy, ACG/SAGES Guidelines</p>
+
+    <div class="version-tabs">
+      <button class="version-tab active" onclick="showVersion('achalasia','zh-general')">一般版</button>
+      <button class="version-tab" onclick="showVersion('achalasia','zh-advanced')">進階版</button>
+      <button class="version-tab" onclick="showVersion('achalasia','en-general')">EN General</button>
+      <button class="version-tab" onclick="showVersion('achalasia','en-advanced')">EN Advanced</button>
+    </div>
+
+    <div id="achalasia-zh-general" class="lang-switch active">
+      <ul class="file-list">
+        <li><span class="num">1</span><a href="食道弛緩不能症/一般版/01_疾病介紹.html">疾病介紹 — 什麼是弛緩不能症</a></li>
+        <li><span class="num">2</span><a href="食道弛緩不能症/一般版/02_症狀與診斷.html">症狀與診斷 — 吞嚥困難、鳥嘴徵</a></li>
+        <li><span class="num">3</span><a href="食道弛緩不能症/一般版/03_治療方式.html">治療方式 — POEM、Heller、氣球擴張</a></li>
+        <li><span class="num">4</span><a href="食道弛緩不能症/一般版/04_日常照護與飲食建議.html">日常照護與飲食建議</a></li>
+        <li><span class="num">5</span><a href="食道弛緩不能症/一般版/05_常見問答FAQ.html">常見問答 FAQ — 15 題常見問題</a></li>
+      </ul>
+    </div>
+    <div id="achalasia-zh-advanced" class="lang-switch">
+      <ul class="file-list">
+        <li><span class="num">1</span><a href="食道弛緩不能症/進階版/01_病理機轉與亞型分類.html">病理機轉與亞型分類 — Chicago Classification</a></li>
+        <li><span class="num">2</span><a href="食道弛緩不能症/進階版/02_POEM_vs_Heller手術比較.html">POEM vs Heller 比較 — SAGES 2024</a></li>
+        <li><span class="num">3</span><a href="食道弛緩不能症/進階版/03_國際指引摘要_ACG_SAGES.html">國際指引 ACG/SAGES — 證據等級</a></li>
+        <li><span class="num">4</span><a href="食道弛緩不能症/進階版/04_頂尖治療中心.html">頂尖治療中心 — 美國/台灣</a></li>
+        <li><span class="num">5</span><a href="食道弛緩不能症/進階版/05_臨床問答FAQ.html">臨床問答 FAQ — 15 題實務問題</a></li>
+      </ul>
+    </div>
+    <div id="achalasia-en-general" class="lang-switch">
+      <ul class="file-list">
+        <li><span class="num">1</span><a href="食道弛緩不能症/一般版/EN/01_Disease_Introduction.html">Disease Introduction</a></li>
+        <li><span class="num">2</span><a href="食道弛緩不能症/一般版/EN/02_Symptoms_and_Diagnosis.html">Symptoms and Diagnosis</a></li>
+        <li><span class="num">3</span><a href="食道弛緩不能症/一般版/EN/03_Treatment_Options.html">Treatment Options</a></li>
+        <li><span class="num">4</span><a href="食道弛緩不能症/一般版/EN/04_Daily_Care_and_Diet.html">Daily Care and Diet</a></li>
+        <li><span class="num">5</span><a href="食道弛緩不能症/一般版/EN/05_FAQ.html">FAQ</a></li>
+      </ul>
+    </div>
+    <div id="achalasia-en-advanced" class="lang-switch">
+      <ul class="file-list">
+        <li><span class="num">1</span><a href="食道弛緩不能症/進階版/EN/01_Pathophysiology_and_Subtypes.html">Pathophysiology and Subtypes</a></li>
+        <li><span class="num">2</span><a href="食道弛緩不能症/進階版/EN/02_POEM_vs_Heller_Comparison.html">POEM vs Heller Comparison</a></li>
+        <li><span class="num">3</span><a href="食道弛緩不能症/進階版/EN/03_International_Guidelines_ACG_SAGES.html">International Guidelines ACG/SAGES</a></li>
+        <li><span class="num">4</span><a href="食道弛緩不能症/進階版/EN/04_Leading_Treatment_Centers.html">Leading Treatment Centers</a></li>
+        <li><span class="num">5</span><a href="食道弛緩不能症/進階版/EN/05_Clinical_FAQ.html">Clinical FAQ</a></li>
+      </ul>
+    </div>
+    <div style="text-align:right; margin-top:10px;">
+      <a href="食道弛緩不能症/參考資源.html" style="font-size:0.85em;">參考資源 References →</a>
+    </div>
+  </div>
+
+  <div class="site-footer">
+    <p>食道疾病衛教資料 Esophageal Disease Patient Education | v1.0 | 2026-03-31</p>
+  </div>
+
+  <script>
+    function showVersion(topic, version) {
+      document.querySelectorAll('[id^="'+topic+'-"]').forEach(el => el.classList.remove('active'));
+      document.getElementById(topic + '-' + version).classList.add('active');
+      const section = document.getElementById(topic + '-' + version).closest('.topic-section');
+      section.querySelectorAll('.version-tab').forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+    }
+  </script>
+</body>
+</html>

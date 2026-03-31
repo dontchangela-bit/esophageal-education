@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>臨床問答 FAQ - 胸腔外科衛教資料</title>
+  <link rel="stylesheet" href="../../css/medical.css">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad:true, theme:'default'});</script>
+</head>
+<body>
+  <div class="breadcrumb">
+    <a href="../../index.html">首頁 Home</a> &gt; esophageal-function
+  </div>
+
+  <h1 id="食道功能檢查-臨床問答-faq">食道功能檢查 – 臨床問答 FAQ</h1>
+  <h2 id="前言">前言</h2>
+  <p>本篇整理臨床工作者在食道功能檢查實務中常遇到的問題，涵蓋 HRM 判讀、逆流監測應用、Chicago Classification v4.0 和 Lyon Consensus 2.0 的臨床實踐等主題。</p>
+  <hr />
+  <h3 id="q1何時應在停藥-off-ppi-vs-服藥-on-ppi-狀態下進行逆流監測">Q1：何時應在停藥 (off PPI) vs 服藥 (on PPI) 狀態下進行逆流監測？</h3>
+  <p><strong>答</strong>：</p>
+  <p><strong>停藥監測 (off PPI)</strong> – 適用於需要<strong>建立 GERD 診斷</strong>的情境： - 患者從未有確定性 GERD 證據（無 LA C/D、無 Barrett’s） - 計畫進行抗逆流手術，需術前客觀確認 GERD - PPI 經驗性治療反應不佳，需確認是否真有病理性逆流 - 停藥要求：PPI 停 7 天、H2RA 停 3 天、制酸劑停 6-12 小時</p>
+  <p><strong>服藥監測 (on PPI)</strong> – 適用於<strong>已確診 GERD 但治療效果不佳</strong>的情境： - 已有確定性 GERD 證據（LA C/D、長段 Barrett’s），但 PPI 治療後症狀持續 - 目的：評估 PPI 控制下是否仍有殘餘逆流 - <strong>建議使用 pH-阻抗監測</strong>（非單純 pH），因服藥後逆流可能轉為弱酸性或非酸性</p>
+  <blockquote>
+  <p><strong>臨床要點</strong>：如果目的是「確認有沒有 GERD」，用停藥監測。如果已知有 GERD 但要「評估藥物效果」，用服藥監測。</p>
+  </blockquote>
+  <hr />
+  <h3 id="q2如何判讀邊界值-irp-borderline-irp">Q2：如何判讀邊界值 IRP (borderline IRP)？</h3>
+  <p><strong>答</strong>：</p>
+  <p>IRP 邊界值是臨床上常見的難題。CCv4.0 的處理策略：</p>
+  <ol type="1">
+  <li><p><strong>確認體位一致性</strong>：</p>
+  <ul>
+  <li>仰臥位和直立位 IRP 均升高 → 確定性較高</li>
+  <li>僅仰臥位升高而直立位正常 → 可能為偽陽性（常見原因：導管位移、腹壓增加、裂孔疝氣影響）</li>
+  </ul></li>
+  <li><p><strong>搭配其他證據</strong>：</p>
+  <ul>
+  <li>FLIP 評估 EGJ 擴張性 (distensibility index, DI)：DI 降低支持真正的出口阻塞</li>
+  <li>定時鋇劑攝影 (timed barium esophagram, TBE)：1 分鐘和 5 分鐘的鋇劑殘留量</li>
+  <li>症狀評估：是否有與 EGJ 阻塞一致的臨床症狀</li>
+  </ul></li>
+  <li><p><strong>重複檢查</strong>：在不確定時，可考慮重複 HRM 或在不同體位下重新評估</p></li>
+  <li><p><strong>考慮技術因素</strong>：</p>
+  <ul>
+  <li>導管是否正確定位？</li>
+  <li>患者是否過度焦慮導致腹壓升高？</li>
+  <li>是否有使用可能影響 LES 壓力的藥物（鴉片類等）？</li>
+  </ul></li>
+  </ol>
+  <hr />
+  <h3 id="q3egjoo-的完整處理流程為何">Q3：EGJOO 的完整處理流程為何？</h3>
+  <p><strong>答</strong>：</p>
+  <p>CCv4.0 對 EGJOO (EGJ Outflow Obstruction) 的診斷和處理更加謹慎：</p>
+  <pre class="mermaid"><code>flowchart TD
+    A[HRM: IRP 升高&lt;br&gt;蠕動保留] --&gt; B{仰臥位 + 直立位&lt;br&gt;IRP 均升高？}
+    B --&gt;|否，僅單一體位| C[不確定性 EGJOO&lt;br&gt;暫不診斷]
+    B --&gt;|是| D{排除機械性原因}
+    D --&gt; D1[胃鏡排除：&lt;br&gt;EoE、腫瘤、狹窄]
+    D --&gt; D2[影像排除：&lt;br&gt;外部壓迫]
+    D1 --&gt; E{有機械性原因？}
+    D2 --&gt; E
+    E --&gt;|是| F[針對原因治療&lt;br&gt;非原發性 EGJOO]
+    E --&gt;|否| G{有相關臨床症狀？&lt;br&gt;吞嚥困難/胸痛}
+    G --&gt;|否| H[觀察追蹤&lt;br&gt;可能為無臨床意義]
+    G --&gt;|是| I{FLIP 評估}
+    I --&gt;|DI 降低| J[臨床相關 EGJOO&lt;br&gt;考慮治療]
+    I --&gt;|DI 正常| K[功能性阻塞可能性低&lt;br&gt;重新評估]
+    J --&gt; L[治療選項：&lt;br&gt;氣球擴張 / POEM / 觀察]</code></pre>
+  <p><strong>關鍵注意事項</strong>： - CCv4.0 後，EGJOO 的確診率應較 v3.0 大幅下降 - 許多 v3.0 時期的 EGJOO 診斷在 v4.0 標準下可能不成立 - 鴉片類藥物是造成偽陽性 EGJOO 的常見原因 - 不可在未充分評估下直接進行侵入性治療</p>
+  <hr />
+  <h3 id="q4何時應使用-flip-而非-hrm兩者如何互補">Q4：何時應使用 FLIP 而非 HRM？兩者如何互補？</h3>
+  <p><strong>答</strong>：</p>
+  <p>FLIP (Functional Lumen Imaging Probe) 和 HRM 測量的是不同面向：</p>
+  <table>
+  <thead>
+  <tr class="header">
+  <th>面向</th>
+  <th>HRM</th>
+  <th>FLIP</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td>測量內容</td>
+  <td>食道壁產生的壓力</td>
+  <td>食道腔的擴張性和順應性</td>
+  </tr>
+  <tr class="even">
+  <td>體外/體內</td>
+  <td>導管經鼻腔放置</td>
+  <td>通常在胃鏡鎮靜下經口放置</td>
+  </tr>
+  <tr class="odd">
+  <td>EGJ 評估</td>
+  <td>鬆弛壓力 (IRP)</td>
+  <td>擴張性 (distensibility index)</td>
+  </tr>
+  <tr class="even">
+  <td>蠕動評估</td>
+  <td>直接測量蠕動壓力</td>
+  <td>可觀察 FLIP 蠕動反應 (FLIP panometry)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>FLIP 特別有價值的情境</strong>： 1. <strong>IRP 邊界值</strong>：FLIP DI 可協助確認 EGJ 阻塞是否真實存在 2. <strong>EGJOO 評估</strong>：FLIP 是評估 EGJOO 臨床意義的重要輔助工具 3. <strong>嗜酸性食道炎 (EoE)</strong>：FLIP 可評估食道體部的順應性降低（纖維化程度） 4. <strong>術中即時評估</strong>：FLIP 可在手術中即時評估肌層切開或胃底摺疊的效果 5. <strong>兒童或無法配合 HRM 的患者</strong>：在鎮靜下進行，不需要患者配合吞嚥</p>
+  <p><strong>建議組合</strong>： - 標準食道運動障礙評估：以 HRM 為主 - IRP 邊界值或 EGJOO 的進一步評估：HRM + FLIP - EoE 的食道功能評估：FLIP 優先 - 術中監測：FLIP</p>
+  <hr />
+  <h3 id="q5無線-bravo-監測-vs-導管式-phph-阻抗監測各自適應症為何">Q5：無線 Bravo 監測 vs 導管式 pH/pH-阻抗監測，各自適應症為何？</h3>
+  <p><strong>答</strong>：</p>
+  <table>
+  <thead>
+  <tr class="header">
+  <th>比較項目</th>
+  <th>導管式 pH-阻抗</th>
+  <th>無線 Bravo</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td>監測時間</td>
+  <td>24 小時</td>
+  <td>48-96 小時</td>
+  </tr>
+  <tr class="even">
+  <td>鼻管</td>
+  <td>需要</td>
+  <td>不需要</td>
+  </tr>
+  <tr class="odd">
+  <td>偵測非酸逆流</td>
+  <td>可以</td>
+  <td>不可以</td>
+  </tr>
+  <tr class="even">
+  <td>基線阻抗 (BI)</td>
+  <td>可測量</td>
+  <td>不可測量</td>
+  </tr>
+  <tr class="odd">
+  <td>PSPWI</td>
+  <td>可計算</td>
+  <td>不可計算</td>
+  </tr>
+  <tr class="even">
+  <td>日常活動影響</td>
+  <td>鼻管可能限制活動和飲食</td>
+  <td>更接近日常生活</td>
+  </tr>
+  <tr class="odd">
+  <td>放置方式</td>
+  <td>經鼻腔</td>
+  <td>需胃鏡</td>
+  </tr>
+  <tr class="even">
+  <td>費用</td>
+  <td>較低</td>
+  <td>較高</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>選擇建議</strong>：</p>
+  <ul>
+  <li><strong>優先選擇導管式 pH-阻抗</strong>：
+  <ul>
+  <li>需要偵測非酸性逆流（服藥監測）</li>
+  <li>需要 BI 和 PSPWI 等輔助指標</li>
+  <li>Lyon 2.0 不確定區間需要更多資訊</li>
+  <li>標準初次停藥評估</li>
+  </ul></li>
+  <li><strong>優先選擇 Bravo</strong>：
+  <ul>
+  <li>患者無法耐受鼻管</li>
+  <li>需要延長監測時間以提高敏感度（如間歇性症狀）</li>
+  <li>兒童或極度焦慮的患者</li>
+  <li>已知 24 小時監測可能正常而臨床高度懷疑逆流</li>
+  </ul></li>
+  </ul>
+  <hr />
+  <h3 id="q6hrm-和-ph-監測結果不一致時如何處理">Q6：HRM 和 pH 監測結果不一致時如何處理？</h3>
+  <p><strong>答</strong>：</p>
+  <p>臨床上確實會遇到兩項檢查結果不一致的情況：</p>
+  <p><strong>情境一：HRM 正常但 pH 監測顯示異常逆流</strong> - 最常見的組合：正常食道運動合併 GERD - 逆流可能來自 EGJ 屏障功能不足（HRM 上的 EGJ-CI 降低或 Type III EGJ 型態） - 暫時性 LES 鬆弛 (transient LES relaxation, TLESR) 是主要逆流機制，HRM 標準測試中可能不會捕捉到 - 處理：以逆流治療為主</p>
+  <p><strong>情境二：HRM 異常（如 IEM）但 pH 監測正常</strong> - IEM 可能影響食道清除功能，但如果沒有病理性逆流，可能不需要針對逆流治療 - 需要評估 IEM 是否與患者的吞嚥困難症狀相關 - 考慮是否有功能性食道疾病</p>
+  <p><strong>情境三：EGJOO (HRM) 但無逆流 (pH)</strong> - 不矛盾：EGJOO 造成的是出口阻塞，不一定伴隨逆流 - EGJOO 的症狀通常是吞嚥困難，非逆流 - 需進一步以 FLIP 和鋇劑攝影評估 EGJOO 的臨床意義</p>
+  <p><strong>原則</strong>：每項檢查提供不同面向的資訊，不一致時需結合臨床全貌綜合判斷，而非僅依賴單一檢查結果。</p>
+  <hr />
+  <h3 id="q7何時需要重複食道功能檢查">Q7：何時需要重複食道功能檢查？</h3>
+  <p><strong>答</strong>：</p>
+  <p><strong>建議重複檢查的情境</strong>： 1. <strong>首次結果不確定 (inconclusive)</strong>：CCv4.0 定義的不確定性診斷，可在不同日重複以確認一致性 2. <strong>治療效果評估</strong>： - POEM 或肌層切開術後評估 EGJ 功能 - 抗逆流手術後評估逆流控制 3. <strong>症狀顯著變化</strong>：原本穩定的患者出現新症狀或症狀惡化 4. <strong>技術問題</strong>：首次檢查因導管位移、患者配合度差等技術問題而結果不可靠 5. <strong>長期追蹤</strong>：某些進行性疾病（如硬皮症 scleroderma 相關食道病變）需定期監測</p>
+  <p><strong>通常不需重複的情境</strong>： - 首次檢查結果確定且與臨床一致 - 診斷明確且治療方向已確定 - 短期內症狀無明顯變化</p>
+  <hr />
+  <h3 id="q8激發測試-provocative-testing-在-ccv4.0-中的角色為何">Q8：激發測試 (provocative testing) 在 CCv4.0 中的角色為何？</h3>
+  <p><strong>答</strong>：</p>
+  <p>CCv4.0 將激發測試提升為建議納入的標準流程：</p>
+  <h4 id="多次快速吞嚥-multiple-rapid-swallows-mrs">多次快速吞嚥 (Multiple Rapid Swallows, MRS)</h4>
+  <ul>
+  <li><strong>方法</strong>：連續快速吞入 5 次 2 mL 水（間隔 &lt; 4 秒）</li>
+  <li><strong>正常反應</strong>：
+  <ul>
+  <li>快速吞嚥期間蠕動被抑制 (deglutitive inhibition)</li>
+  <li>最後一次吞嚥後出現增強的蠕動波（DCI &gt; 基線平均值）</li>
+  </ul></li>
+  <li><strong>臨床意義</strong>：
+  <ul>
+  <li>評估蠕動儲備功能 (peristaltic reserve)</li>
+  <li>IEM 患者若 MRS 後蠕動增強 → 有儲備功能，手術風險較低</li>
+  <li>IEM 患者若 MRS 後蠕動無增強 → 無儲備功能，需謹慎考慮抗逆流手術</li>
+  <li>可協助區分 achalasia 前期 (pre-achalasia) 和其他運動障礙</li>
+  </ul></li>
+  </ul>
+  <h4 id="快速飲水挑戰-rapid-drink-challenge-rdc">快速飲水挑戰 (Rapid Drink Challenge, RDC)</h4>
+  <ul>
+  <li><strong>方法</strong>：以吸管快速喝下 200 mL 水</li>
+  <li><strong>正常反應</strong>：EGJ 充分鬆弛，液體順利通過</li>
+  <li><strong>臨床意義</strong>：
+  <ul>
+  <li>評估 EGJ 在大量液體通過時的功能</li>
+  <li>對 EGJOO 的評估特別敏感：EGJ 無法在 RDC 時充分鬆弛支持真正的出口阻塞</li>
+  <li>正常的 RDC 反應使 EGJOO 診斷的可能性降低</li>
+  </ul></li>
+  </ul>
+  <hr />
+  <h3 id="q9基線阻抗-baseline-impedance-何時有用如何應用">Q9：基線阻抗 (baseline impedance) 何時有用？如何應用？</h3>
+  <p><strong>答</strong>：</p>
+  <p>基線阻抗 (Baseline Impedance, BI) 反映食道黏膜完整性 (mucosal integrity)，是 Lyon 2.0 的重要輔助指標。</p>
+  <p><strong>測量方式</strong>： - 在 24 小時 pH-阻抗監測中，選取夜間（凌晨 12-6 點）無吞嚥、無逆流的穩定時段 - 計算平均夜間基線阻抗 (Mean Nocturnal Baseline Impedance, MNBI) - 亦可在 HRM 導管上的阻抗通道進行即時測量（如有配置）</p>
+  <p><strong>BI 降低的意義</strong>： - 代表食道黏膜受損、通透性增加 - 與 GERD 相關的黏膜損傷一致 - 即使 AET 在邊界值範圍，BI 降低仍支持 GERD 診斷</p>
+  <p><strong>BI 的主要臨床應用</strong>： 1. <strong>Lyon 2.0 不確定區間（AET 4-6%）</strong>：BI 降低傾向支持 GERD 2. <strong>功能性火燒心 vs 逆流高敏感的鑑別</strong>：BI 正常較支持功能性火燒心 3. <strong>PPI 治療反應的預測</strong>：BI 異常者對 PPI 反應可能較好 4. <strong>嗜酸性食道炎 (EoE) 的評估</strong>：EoE 也可造成 BI 降低</p>
+  <p><strong>閾值建議</strong>： - 遠端食道 MNBI &lt; 1500 ohms：提示黏膜損傷 - 正常值因系統和導管位置而異，需參考各中心建立的常模</p>
+  <hr />
+  <h3 id="q10如何在實際臨床中應用-lyon-2.0">Q10：如何在實際臨床中應用 Lyon 2.0？</h3>
+  <p><strong>答</strong>：</p>
+  <p>Lyon 2.0 的臨床實踐步驟：</p>
+  <p><strong>步驟一：確認是否已有確定性 GERD 證據</strong> - 回顧胃鏡：是否有 LA C/D、長段 Barrett’s、消化性狹窄？ - 如有 → GERD 已確診，不需要停藥逆流監測來確認診斷</p>
+  <p><strong>步驟二：決定監測方式</strong> - 需要建立 GERD 診斷 → 停藥 pH 或 pH-阻抗監測 - 已有確診但治療不佳 → 服藥 pH-阻抗監測</p>
+  <p><strong>步驟三：判讀主要指標</strong> - AET &gt; 6% → 確定性 GERD - AET &lt; 4% 且逆流 &lt; 40 次 → 排除病理性 GERD - AET 4-6% 或其他不一致 → 進入輔助指標評估</p>
+  <p><strong>步驟四：輔助指標（不確定時）</strong> - BI（基線阻抗） - PSPWI（吞嚥後蠕動波指數） - 組織病理學 - 症狀關聯性（SAP &gt; 95%、SI &gt; 50%） - 多項輔助指標異常 → 傾向支持 GERD - 多項輔助指標正常 → 傾向排除 GERD</p>
+  <p><strong>步驟五：整合 HRM 結果</strong> - EGJ 屏障功能（EGJ-CI、EGJ 型態）提供額外資訊 - IEM 可能影響食道清除能力 - Achalasia 和嚴重運動障礙需納入鑑別</p>
+  <hr />
+  <h3 id="q11食道弛緩不能症治療後的食道功能檢查追蹤策略為何">Q11：食道弛緩不能症治療後的食道功能檢查追蹤策略為何？</h3>
+  <p><strong>答</strong>：</p>
+  <p>治療後追蹤的目的是評估 EGJ 阻塞是否解除和是否有新的問題：</p>
+  <p><strong>治療後 HRM 變化</strong>： - 成功治療後 IRP 應下降（但不一定完全正常化） - Type I 和 Type II 治療後蠕動不會恢復（食道體部肌層已退化） - Type III 治療後痙攣性收縮可能減少</p>
+  <p><strong>追蹤建議</strong>： - 治療後症狀復發時：重複 HRM + 定時鋇劑攝影 - 術後常規追蹤：各中心做法不一，部分建議 3-6 個月重複 HRM - FLIP 可用於術中即時評估和術後追蹤</p>
+  <p><strong>注意事項</strong>： - 治療後的 HRM 正常值可能與未治療時不同 - 治療後出現嚴重逆流症狀需進行逆流監測（尤其是 POEM 術後） - POEM 術後反流發生率較外科肌層切開術高，需注意追蹤</p>
+  <hr />
+  <h3 id="q12如何處理嗜酸性食道炎-eoe-患者的食道功能檢查">Q12：如何處理嗜酸性食道炎 (EoE) 患者的食道功能檢查？</h3>
+  <p><strong>答</strong>：</p>
+  <p>嗜酸性食道炎 (Eosinophilic Esophagitis, EoE) 是食道功能檢查中的特殊情境：</p>
+  <p><strong>HRM 在 EoE 的角色</strong>： - EoE 患者可出現多種 HRM 異常：IEM、EGJOO、DES 等 - 但這些異常的發生率和臨床意義仍有爭議 - EoE 的主要功能異常是順應性降低（食道壁纖維化、僵硬），HRM 可能無法完全反映</p>
+  <p><strong>FLIP 在 EoE 的角色（更為重要）</strong>： - FLIP 直接測量食道擴張性 (distensibility)，能反映 EoE 的纖維化程度 - EoE 的 FLIP 特徵：食道體部 DI 降低（食道撐不開） - FLIP 可用於評估治療（類固醇、飲食限制、擴張術）的效果 - FLIP panometry 可觀察食道體部對擴張的蠕動反應</p>
+  <p><strong>建議</strong>： - EoE 的功能評估以 FLIP 優先 - HRM 可作為輔助，特別是有吞嚥困難合併疑似運動障礙時 - 逆流監測可協助排除合併的 GERD</p>
+  <hr />
+  <h3 id="q13食道功能檢查在減重手術-bariatric-surgery-患者中的角色為何">Q13：食道功能檢查在減重手術 (bariatric surgery) 患者中的角色為何？</h3>
+  <p><strong>答</strong>：</p>
+  <p>減重手術前後的食道功能評估越來越受重視：</p>
+  <p><strong>術前評估</strong>： - 部分中心建議減重手術前進行 HRM，特別是有食道症狀的患者 - 排除 achalasia 和嚴重運動障礙（可能影響手術方式選擇） - 評估是否有術前 GERD（影響手術方式選擇：Roux-en-Y vs 袖狀胃切除） - 袖狀胃切除術 (sleeve gastrectomy) 後 GERD 發生率較高，有嚴重 GERD 者可能更適合 Roux-en-Y</p>
+  <p><strong>術後評估</strong>： - 術後新發吞嚥困難：HRM 評估是否有手術相關的 EGJ 阻塞 - 術後 GERD 症狀：逆流監測評估逆流嚴重度 - FLIP 可用於術後 EGJ 或吻合口的擴張性評估</p>
+  <!-- 🏥 院內資料區 - 請自行填入 -->
+  <blockquote>
+  <p><strong>📋 請填入貴院資料：</strong></p>
+  <ul>
+  <li>本院負責科別：_______________</li>
+  <li>聯絡電話 / 分機：_______________</li>
+  <li>門診時間：_______________</li>
+  <li>主治醫師：_______________</li>
+  <li>本院檢查設備與特色：_______________ <!-- 院內資料區結束 --></li>
+  </ul>
+  </blockquote>
+
+  <div class="site-footer">
+    <p>胸腔外科衛教資料 Thoracic Surgery Patient Education | v2.0 | 2026-03-31</p>
+    <p><a href="../../index.html">返回首頁 Back to Home</a></p>
+  </div>
+
+  <a href="#" class="back-to-top" title="Back to top">↑</a>
+</body>
+</html>

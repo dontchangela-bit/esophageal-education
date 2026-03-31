@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>院內資料填寫模板 - 胸腔外科衛教資料</title>
+  <link rel="stylesheet" href="../css/medical.css">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad:true, theme:'default'});</script>
+</head>
+<body>
+  <div class="breadcrumb">
+    <a href="../index.html">首頁 Home</a> &gt; 
+  </div>
+
+  <h1 id="院內資料填寫說明">院內資料填寫說明</h1>
+  <blockquote>
+  <p>本文件提供統一的院內資料填寫格式。所有衛教文件中標記為「院內資料區」的區塊，請參考以下範本自行填入。</p>
+  </blockquote>
+  <hr />
+  <h2 id="填寫格式說明">填寫格式說明</h2>
+  <p>在每份衛教 Markdown 文件中，您會看到以下標記：</p>
+  <div class="sourceCode" id="cb1"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- 🏥 院內資料區 - 請自行填入 --&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; **📋 請填入貴院資料：**</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - 本院負責科別：_______________</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - 聯絡電話 / 分機：_______________</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - 門診時間：_______________</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - 主治醫師：_______________</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - 本院特色 / 年手術量：_______________</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- 院內資料區結束 --&gt;</span></span></code></pre></div>
+  <p>請直接編輯 <code>_______________</code> 處，填入貴院實際資訊。</p>
+  <hr />
+  <h2 id="範例填寫完成後">範例（填寫完成後）</h2>
+  <div class="sourceCode" id="cb2"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- 🏥 院內資料區 --&gt;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; **📋 本院資料：**</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - 本院負責科別：胸腔外科 / 肝膽腸胃科</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - 聯絡電話 / 分機：(02) 2312-3456 分機 6789</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - 門診時間：週一、三、五上午 / 週二下午</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - 主治醫師：王大明 主任、李小華 醫師</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - 本院特色 / 年手術量：年均 POEM 手術 50 例，微創食道切除 30 例</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- 院內資料區結束 --&gt;</span></span></code></pre></div>
+  <hr />
+  <h2 id="各主題可能需要填入的院內資訊">各主題可能需要填入的院內資訊</h2>
+  <h3 id="食道弛緩不能症">食道弛緩不能症</h3>
+  <ul>
+  <li>負責科別（肝膽腸胃科 / 胸腔外科）</li>
+  <li>POEM 手術經驗與年手術量</li>
+  <li>Heller Myotomy 手術經驗</li>
+  <li>氣球擴張治療能量</li>
+  <li>門診掛號方式與時間</li>
+  <li>住院天數（院內平均）</li>
+  <li>術後追蹤流程</li>
+  </ul>
+  <h3 id="食道功能檢查">食道功能檢查</h3>
+  <ul>
+  <li>檢查室位置（樓層 / 棟別）</li>
+  <li>使用之 HRM 設備品牌與型號</li>
+  <li>pH-Impedance 監測設備</li>
+  <li>報告產出時間</li>
+  <li>預約方式（門診開單 / 自行預約）</li>
+  <li>檢查費用（健保 / 自費項目）</li>
+  <li>特殊注意事項（本院專屬流程）</li>
+  </ul>
+  <h3 id="食道癌微創手術">食道癌微創手術</h3>
+  <ul>
+  <li>手術團隊組成（外科、腫瘤科、放射科等）</li>
+  <li>年手術量與 MIE/RAMIE 比例</li>
+  <li>達文西機器手臂可用性</li>
+  <li>術前評估流程（本院多專科團隊會議）</li>
+  <li>平均住院天數</li>
+  <li>術後加護病房照護</li>
+  <li>營養諮詢與復健資源</li>
+  <li>癌症個案管理師聯繫方式</li>
+  </ul>
+  <hr />
+  <h2 id="英文版院內資料區格式">英文版院內資料區格式</h2>
+  <div class="sourceCode" id="cb3"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- 🏥 Hospital-Specific Information - Please fill in --&gt;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; **📋 Please enter your hospital information:**</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - Department: _______________</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - Contact / Extension: _______________</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - Clinic Hours: _______________</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - Attending Physician(s): _______________</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; - Hospital Specialties / Annual Volume: _______________</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- End of hospital-specific information --&gt;</span></span></code></pre></div>
+
+  <div class="site-footer">
+    <p>胸腔外科衛教資料 Thoracic Surgery Patient Education | v2.0 | 2026-03-31</p>
+    <p><a href="../index.html">返回首頁 Back to Home</a></p>
+  </div>
+
+  <a href="#" class="back-to-top" title="Back to top">↑</a>
+</body>
+</html>

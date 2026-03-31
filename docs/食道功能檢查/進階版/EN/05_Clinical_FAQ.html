@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clinical FAQ - 胸腔外科衛教資料</title>
+  <link rel="stylesheet" href="../../../css/medical.css">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad:true, theme:'default'});</script>
+</head>
+<body>
+  <div class="breadcrumb">
+    <a href="../../../index.html">首頁 Home</a> &gt; esophageal-function
+  </div>
+
+  <h1 id="esophageal-function-testing-clinical-faq">Esophageal Function Testing – Clinical FAQ</h1>
+  <h2 id="introduction">Introduction</h2>
+  <p>This section compiles frequently encountered questions in clinical practice regarding esophageal function testing, covering HRM interpretation, reflux monitoring applications, and the practical implementation of Chicago Classification v4.0 and Lyon Consensus 2.0.</p>
+  <hr />
+  <h3 id="q1-when-should-reflux-monitoring-be-performed-off-ppi-vs.-on-ppi">Q1: When should reflux monitoring be performed off PPI vs. on PPI?</h3>
+  <p><strong>Answer</strong>:</p>
+  <p><strong>Off-PPI monitoring</strong> – applicable when the goal is to <strong>establish a GERD diagnosis</strong>: - The patient has never had conclusive GERD evidence (no LA C/D, no Barrett’s) - Planning antireflux surgery and need preoperative objective confirmation of GERD - Poor response to empirical PPI therapy; need to confirm whether pathological reflux truly exists - Discontinuation requirements: PPI for 7 days, H2RA for 3 days, antacids for 6-12 hours</p>
+  <p><strong>On-PPI monitoring</strong> – applicable when <strong>GERD has been confirmed but treatment response is poor</strong>: - Conclusive GERD evidence exists (LA C/D, long-segment Barrett’s), but symptoms persist despite PPI therapy - Purpose: Assess whether residual reflux persists under PPI control - <strong>pH-impedance monitoring is recommended</strong> (not pH alone), as reflux may become weakly acidic or non-acidic on medication</p>
+  <blockquote>
+  <p><strong>Clinical point</strong>: If the goal is “to determine whether GERD exists,” use off-PPI monitoring. If GERD is already known and the goal is “to evaluate medication effectiveness,” use on-PPI monitoring.</p>
+  </blockquote>
+  <hr />
+  <h3 id="q2-how-should-borderline-irp-be-interpreted">Q2: How should borderline IRP be interpreted?</h3>
+  <p><strong>Answer</strong>:</p>
+  <p>Borderline IRP is a common clinical challenge. The CCv4.0 approach:</p>
+  <ol type="1">
+  <li><p><strong>Confirm positional concordance</strong>:</p>
+  <ul>
+  <li>Elevated IRP in both supine and upright positions –&gt; higher diagnostic certainty</li>
+  <li>Elevated in supine only with normal upright values –&gt; possible false positive (common causes: catheter displacement, increased abdominal pressure, hiatal hernia effect)</li>
+  </ul></li>
+  <li><p><strong>Integrate additional evidence</strong>:</p>
+  <ul>
+  <li>FLIP to assess EGJ distensibility (distensibility index, DI): Decreased DI supports true outflow obstruction</li>
+  <li>Timed barium esophagram (TBE): Barium retention at 1 minute and 5 minutes</li>
+  <li>Symptom assessment: Presence of clinical symptoms consistent with EGJ obstruction</li>
+  </ul></li>
+  <li><p><strong>Repeat testing</strong>: When uncertain, consider repeating HRM or re-evaluating in different positions</p></li>
+  <li><p><strong>Consider technical factors</strong>:</p>
+  <ul>
+  <li>Was the catheter properly positioned?</li>
+  <li>Was the patient excessively anxious, causing increased abdominal pressure?</li>
+  <li>Were medications that affect LES pressure being used (opioids, etc.)?</li>
+  </ul></li>
+  </ol>
+  <hr />
+  <h3 id="q3-what-is-the-complete-management-algorithm-for-egjoo">Q3: What is the complete management algorithm for EGJOO?</h3>
+  <p><strong>Answer</strong>:</p>
+  <p>CCv4.0 has adopted a more cautious approach to the diagnosis and management of EGJOO (EGJ Outflow Obstruction):</p>
+  <pre class="mermaid"><code>flowchart TD
+    A[HRM: Elevated IRP&lt;br&gt;Peristalsis preserved] --&gt; B{Supine + Upright&lt;br&gt;IRP both elevated?}
+    B --&gt;|No, only one position| C[Inconclusive EGJOO&lt;br&gt;Do not diagnose]
+    B --&gt;|Yes| D{Rule out mechanical causes}
+    D --&gt; D1[Endoscopy to exclude:&lt;br&gt;EoE, tumor, stricture]
+    D --&gt; D2[Imaging to exclude:&lt;br&gt;external compression]
+    D1 --&gt; E{Mechanical cause found?}
+    D2 --&gt; E
+    E --&gt;|Yes| F[Treat underlying cause&lt;br&gt;Not primary EGJOO]
+    E --&gt;|No| G{Relevant clinical symptoms?&lt;br&gt;Dysphagia / chest pain}
+    G --&gt;|No| H[Observation and follow-up&lt;br&gt;May not be clinically significant]
+    G --&gt;|Yes| I{FLIP evaluation}
+    I --&gt;|DI decreased| J[Clinically relevant EGJOO&lt;br&gt;Consider treatment]
+    I --&gt;|DI normal| K[Functional obstruction unlikely&lt;br&gt;Re-evaluate]
+    J --&gt; L[Treatment options:&lt;br&gt;Balloon dilation / POEM / Observation]</code></pre>
+  <p><strong>Key considerations</strong>: - Post-CCv4.0, the rate of confirmed EGJOO diagnoses should decrease substantially compared to v3.0 - Many EGJOO diagnoses made under v3.0 criteria may not meet v4.0 standards - Opioid use is a common cause of false-positive EGJOO - Invasive treatment should not be pursued without thorough evaluation</p>
+  <hr />
+  <h3 id="q4-when-should-flip-be-used-instead-of-hrm-how-do-the-two-complement-each-other">Q4: When should FLIP be used instead of HRM? How do the two complement each other?</h3>
+  <p><strong>Answer</strong>:</p>
+  <p>FLIP (Functional Lumen Imaging Probe) and HRM measure different aspects:</p>
+  <table style="width:100%;">
+  <colgroup>
+  <col style="width: 42%" />
+  <col style="width: 26%" />
+  <col style="width: 31%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th>Aspect</th>
+  <th>HRM</th>
+  <th>FLIP</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td>Measurement</td>
+  <td>Pressure generated by esophageal wall</td>
+  <td>Luminal distensibility and compliance</td>
+  </tr>
+  <tr class="even">
+  <td>Access route</td>
+  <td>Catheter placed transnasally</td>
+  <td>Usually placed orally under endoscopic sedation</td>
+  </tr>
+  <tr class="odd">
+  <td>EGJ assessment</td>
+  <td>Relaxation pressure (IRP)</td>
+  <td>Distensibility index (DI)</td>
+  </tr>
+  <tr class="even">
+  <td>Peristalsis assessment</td>
+  <td>Direct measurement of peristaltic pressure</td>
+  <td>Can observe FLIP-induced peristaltic response (FLIP panometry)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Scenarios where FLIP is particularly valuable</strong>: 1. <strong>Borderline IRP</strong>: FLIP DI can help confirm whether EGJ obstruction truly exists 2. <strong>EGJOO evaluation</strong>: FLIP is an important adjunctive tool for assessing the clinical significance of EGJOO 3. <strong>Eosinophilic esophagitis (EoE)</strong>: FLIP can evaluate decreased esophageal body compliance (fibrosis) 4. <strong>Intraoperative real-time assessment</strong>: FLIP can provide real-time evaluation of myotomy or fundoplication effectiveness during surgery 5. <strong>Children or patients unable to cooperate with HRM</strong>: Performed under sedation without requiring patient cooperation for swallowing</p>
+  <p><strong>Recommended combinations</strong>: - Standard esophageal motility disorder evaluation: HRM as the primary test - Further evaluation of borderline IRP or EGJOO: HRM + FLIP - Esophageal function evaluation in EoE: FLIP preferred - Intraoperative monitoring: FLIP</p>
+  <hr />
+  <h3 id="q5-wireless-bravo-monitoring-vs.-catheter-based-phph-impedance-monitoring-what-are-the-indications-for-each">Q5: Wireless Bravo monitoring vs. catheter-based pH/pH-impedance monitoring – what are the indications for each?</h3>
+  <p><strong>Answer</strong>:</p>
+  <table>
+  <colgroup>
+  <col style="width: 27%" />
+  <col style="width: 45%" />
+  <col style="width: 27%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th>Comparison Item</th>
+  <th>Catheter-Based pH-Impedance</th>
+  <th>Wireless Bravo</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td>Monitoring duration</td>
+  <td>24 hours</td>
+  <td>48-96 hours</td>
+  </tr>
+  <tr class="even">
+  <td>Nasal catheter</td>
+  <td>Required</td>
+  <td>Not required</td>
+  </tr>
+  <tr class="odd">
+  <td>Detection of non-acid reflux</td>
+  <td>Yes</td>
+  <td>No</td>
+  </tr>
+  <tr class="even">
+  <td>Baseline impedance (BI)</td>
+  <td>Measurable</td>
+  <td>Not measurable</td>
+  </tr>
+  <tr class="odd">
+  <td>PSPWI</td>
+  <td>Calculable</td>
+  <td>Not calculable</td>
+  </tr>
+  <tr class="even">
+  <td>Impact on daily activities</td>
+  <td>Nasal catheter may limit activities and eating</td>
+  <td>Closer to daily life</td>
+  </tr>
+  <tr class="odd">
+  <td>Placement method</td>
+  <td>Transnasal</td>
+  <td>Requires endoscopy</td>
+  </tr>
+  <tr class="even">
+  <td>Cost</td>
+  <td>Lower</td>
+  <td>Higher</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Selection recommendations</strong>:</p>
+  <ul>
+  <li><strong>Prefer catheter-based pH-impedance</strong>:
+  <ul>
+  <li>Need to detect non-acidic reflux (on-PPI monitoring)</li>
+  <li>Need BI and PSPWI adjunctive metrics</li>
+  <li>Lyon 2.0 borderline zone requiring additional data</li>
+  <li>Standard initial off-PPI evaluation</li>
+  </ul></li>
+  <li><strong>Prefer Bravo</strong>:
+  <ul>
+  <li>Patient cannot tolerate nasal catheter</li>
+  <li>Extended monitoring needed to improve sensitivity (e.g., intermittent symptoms)</li>
+  <li>Children or extremely anxious patients</li>
+  <li>High clinical suspicion of reflux when 24-hour monitoring may be normal</li>
+  </ul></li>
+  </ul>
+  <hr />
+  <h3 id="q6-how-should-discordant-hrm-and-ph-monitoring-results-be-managed">Q6: How should discordant HRM and pH monitoring results be managed?</h3>
+  <p><strong>Answer</strong>:</p>
+  <p>Discordant results between these two tests are indeed encountered clinically:</p>
+  <p><strong>Scenario 1: Normal HRM but abnormal pH monitoring showing pathological reflux</strong> - The most common combination: normal esophageal motility with GERD - Reflux may be due to impaired EGJ barrier function (decreased EGJ-CI or Type III EGJ morphology on HRM) - Transient LES relaxation (TLESR) is the primary reflux mechanism and may not be captured during standard HRM testing - Management: Focus on reflux treatment</p>
+  <p><strong>Scenario 2: Abnormal HRM (e.g., IEM) but normal pH monitoring</strong> - IEM may affect esophageal clearance, but in the absence of pathological reflux, reflux-targeted treatment may not be needed - Evaluate whether IEM is related to the patient’s dysphagia symptoms - Consider whether a functional esophageal disorder is present</p>
+  <p><strong>Scenario 3: EGJOO (on HRM) but no reflux (on pH monitoring)</strong> - Not contradictory: EGJOO causes outflow obstruction and is not necessarily accompanied by reflux - EGJOO symptoms are typically dysphagia, not reflux - Further evaluation with FLIP and barium esophagram is needed to assess the clinical significance of EGJOO</p>
+  <p><strong>Principle</strong>: Each test provides different dimensions of information. When results are discordant, comprehensive clinical assessment is needed rather than reliance on a single test result.</p>
+  <hr />
+  <h3 id="q7-when-should-esophageal-function-testing-be-repeated">Q7: When should esophageal function testing be repeated?</h3>
+  <p><strong>Answer</strong>:</p>
+  <p><strong>Scenarios where repeat testing is recommended</strong>: 1. <strong>Initial results are inconclusive</strong>: CCv4.0-defined inconclusive diagnoses may be repeated on a different day to confirm consistency 2. <strong>Treatment outcome evaluation</strong>: - Post-POEM or myotomy assessment of EGJ function - Post-antireflux surgery assessment of reflux control 3. <strong>Significant symptom change</strong>: Previously stable patient develops new symptoms or worsening symptoms 4. <strong>Technical issues</strong>: First test was unreliable due to catheter displacement, poor patient cooperation, or other technical problems 5. <strong>Long-term follow-up</strong>: Certain progressive diseases (e.g., scleroderma-related esophageal involvement) require periodic monitoring</p>
+  <p><strong>Scenarios where repeat testing is typically not needed</strong>: - Initial test result was conclusive and consistent with the clinical picture - Diagnosis is clear and treatment direction has been established - No significant change in symptoms in the short term</p>
+  <hr />
+  <h3 id="q8-what-is-the-role-of-provocative-testing-in-ccv4.0">Q8: What is the role of provocative testing in CCv4.0?</h3>
+  <p><strong>Answer</strong>:</p>
+  <p>CCv4.0 has elevated provocative testing to a recommended standard component of the protocol:</p>
+  <h4 id="multiple-rapid-swallows-mrs">Multiple Rapid Swallows (MRS)</h4>
+  <ul>
+  <li><strong>Method</strong>: Rapidly swallow 2 mL water 5 times in succession (interval &lt; 4 seconds)</li>
+  <li><strong>Normal response</strong>:
+  <ul>
+  <li>Peristalsis is inhibited during rapid swallowing (deglutitive inhibition)</li>
+  <li>An augmented peristaltic wave follows the last swallow (DCI &gt; baseline mean)</li>
+  </ul></li>
+  <li><strong>Clinical significance</strong>:
+  <ul>
+  <li>Assesses peristaltic reserve</li>
+  <li>IEM patients with augmented peristalsis after MRS –&gt; preserved reserve, lower surgical risk</li>
+  <li>IEM patients without peristaltic augmentation after MRS –&gt; absent reserve, cautious consideration of antireflux surgery needed</li>
+  <li>Can help differentiate pre-achalasia from other motility disorders</li>
+  </ul></li>
+  </ul>
+  <h4 id="rapid-drink-challenge-rdc">Rapid Drink Challenge (RDC)</h4>
+  <ul>
+  <li><strong>Method</strong>: Drink 200 mL water rapidly through a straw</li>
+  <li><strong>Normal response</strong>: Adequate EGJ relaxation with smooth liquid passage</li>
+  <li><strong>Clinical significance</strong>:
+  <ul>
+  <li>Assesses EGJ function during passage of a large liquid bolus</li>
+  <li>Particularly sensitive for EGJOO evaluation: Failure of EGJ to adequately relax during RDC supports true outflow obstruction</li>
+  <li>Normal RDC response reduces the likelihood of an EGJOO diagnosis</li>
+  </ul></li>
+  </ul>
+  <hr />
+  <h3 id="q9-when-is-baseline-impedance-bi-useful-how-should-it-be-applied">Q9: When is baseline impedance (BI) useful? How should it be applied?</h3>
+  <p><strong>Answer</strong>:</p>
+  <p>Baseline impedance (BI) reflects esophageal mucosal integrity and is an important adjunctive metric in Lyon 2.0.</p>
+  <p><strong>Measurement method</strong>: - During 24-hour pH-impedance monitoring, select stable nighttime periods (midnight to 6 AM) without swallowing or reflux - Calculate the mean nocturnal baseline impedance (MNBI) - Can also be measured in real time using impedance channels on the HRM catheter (if equipped)</p>
+  <p><strong>Significance of decreased BI</strong>: - Indicates esophageal mucosal damage with increased permeability - Consistent with GERD-related mucosal injury - Even when AET is in the borderline range, decreased BI supports a GERD diagnosis</p>
+  <p><strong>Primary clinical applications of BI</strong>: 1. <strong>Lyon 2.0 borderline zone (AET 4-6%)</strong>: Decreased BI favors GERD 2. <strong>Differentiating functional heartburn vs. reflux hypersensitivity</strong>: Normal BI favors functional heartburn 3. <strong>Predicting PPI treatment response</strong>: Abnormal BI may predict better PPI response 4. <strong>Evaluation of eosinophilic esophagitis (EoE)</strong>: EoE can also cause decreased BI</p>
+  <p><strong>Threshold recommendations</strong>: - Distal esophageal MNBI &lt; 1500 ohms: Suggestive of mucosal damage - Normal values vary by system and catheter position; refer to center-specific normative data</p>
+  <hr />
+  <h3 id="q10-how-should-lyon-2.0-be-applied-in-clinical-practice">Q10: How should Lyon 2.0 be applied in clinical practice?</h3>
+  <p><strong>Answer</strong>:</p>
+  <p>Practical steps for implementing Lyon 2.0:</p>
+  <p><strong>Step 1: Determine whether conclusive GERD evidence already exists</strong> - Review endoscopy: LA C/D, long-segment Barrett’s, peptic stricture? - If yes –&gt; GERD is confirmed; off-PPI reflux monitoring is not needed to establish the diagnosis</p>
+  <p><strong>Step 2: Select the monitoring approach</strong> - Need to establish GERD diagnosis –&gt; off-PPI pH or pH-impedance monitoring - Already confirmed but treatment is suboptimal –&gt; on-PPI pH-impedance monitoring</p>
+  <p><strong>Step 3: Interpret primary metrics</strong> - AET &gt; 6% –&gt; conclusive GERD - AET &lt; 4% and reflux &lt; 40 episodes –&gt; pathological GERD excluded - AET 4-6% or other discordance –&gt; proceed to adjunctive metric assessment</p>
+  <p><strong>Step 4: Adjunctive metrics (when inconclusive)</strong> - BI (baseline impedance) - PSPWI (post-reflux swallow-induced peristaltic wave index) - Histopathology - Symptom association (SAP &gt; 95%, SI &gt; 50%) - Multiple abnormal adjunctive metrics –&gt; favors GERD - Multiple normal adjunctive metrics –&gt; favors non-GERD</p>
+  <p><strong>Step 5: Integrate HRM results</strong> - EGJ barrier function (EGJ-CI, EGJ morphology) provides additional information - IEM may impair esophageal clearance capacity - Achalasia and severe motility disorders should be included in the differential</p>
+  <hr />
+  <h3 id="q11-what-is-the-follow-up-strategy-for-esophageal-function-testing-after-achalasia-treatment">Q11: What is the follow-up strategy for esophageal function testing after achalasia treatment?</h3>
+  <p><strong>Answer</strong>:</p>
+  <p>The purpose of post-treatment follow-up is to assess whether EGJ obstruction has been resolved and whether new problems have arisen:</p>
+  <p><strong>Post-treatment HRM changes</strong>: - IRP should decrease after successful treatment (but may not fully normalize) - Peristalsis does not recover after treatment of Type I and Type II (esophageal body muscle has already degenerated) - Spastic contractions may decrease after treatment of Type III</p>
+  <p><strong>Follow-up recommendations</strong>: - Symptom recurrence after treatment: Repeat HRM + timed barium esophagram - Routine post-treatment follow-up: Practices vary by center; some recommend repeat HRM at 3-6 months - FLIP can be used for intraoperative real-time assessment and post-treatment follow-up</p>
+  <p><strong>Important considerations</strong>: - Post-treatment HRM normal values may differ from pre-treatment values - Severe reflux symptoms after treatment require reflux monitoring (especially post-POEM) - The incidence of post-POEM reflux is higher than after surgical myotomy and requires careful follow-up</p>
+  <hr />
+  <h3 id="q12-how-should-esophageal-function-testing-be-approached-in-patients-with-eosinophilic-esophagitis-eoe">Q12: How should esophageal function testing be approached in patients with eosinophilic esophagitis (EoE)?</h3>
+  <p><strong>Answer</strong>:</p>
+  <p>Eosinophilic esophagitis (EoE) presents a unique scenario for esophageal function testing:</p>
+  <p><strong>Role of HRM in EoE</strong>: - EoE patients may exhibit various HRM abnormalities: IEM, EGJOO, DES, etc. - However, the prevalence and clinical significance of these abnormalities remain debated - The primary functional abnormality in EoE is decreased compliance (esophageal wall fibrosis and stiffness), which HRM may not fully capture</p>
+  <p><strong>Role of FLIP in EoE (more important)</strong>: - FLIP directly measures esophageal distensibility, reflecting the degree of fibrosis in EoE - Characteristic FLIP finding in EoE: Decreased esophageal body DI (esophagus cannot stretch open) - FLIP can evaluate treatment response (steroids, dietary restriction, dilation) - FLIP panometry can observe the esophageal body’s peristaltic response to distension</p>
+  <p><strong>Recommendations</strong>: - FLIP is the preferred functional assessment for EoE - HRM can serve as an adjunct, particularly when dysphagia coexists with suspected motility disorders - Reflux monitoring can help rule out concomitant GERD</p>
+  <hr />
+  <h3 id="q13-what-is-the-role-of-esophageal-function-testing-in-bariatric-surgery-patients">Q13: What is the role of esophageal function testing in bariatric surgery patients?</h3>
+  <p><strong>Answer</strong>:</p>
+  <p>Pre- and post-bariatric surgery esophageal function evaluation is receiving increasing attention:</p>
+  <p><strong>Preoperative evaluation</strong>: - Some centers recommend preoperative HRM for bariatric surgery candidates, particularly those with esophageal symptoms - Rule out achalasia and severe motility disorders (which may affect surgical approach selection) - Evaluate for preoperative GERD (influences surgical approach: Roux-en-Y vs. sleeve gastrectomy) - Sleeve gastrectomy has a higher post-operative GERD incidence; patients with severe GERD may be better suited for Roux-en-Y</p>
+  <p><strong>Postoperative evaluation</strong>: - New-onset postoperative dysphagia: HRM to assess for surgery-related EGJ obstruction - Postoperative GERD symptoms: Reflux monitoring to evaluate reflux severity - FLIP can assess distensibility of the EGJ or anastomosis postoperatively</p>
+  <!-- 🏥 Hospital-Specific Information - Please fill in -->
+  <blockquote>
+  <p><strong>📋 Please enter your hospital information:</strong></p>
+  <ul>
+  <li>Department: _______________</li>
+  <li>Contact / Extension: _______________</li>
+  <li>Clinic Hours: _______________</li>
+  <li>Attending Physician(s): _______________</li>
+  <li>Hospital Specialties / Annual Volume: _______________ <!-- End of hospital-specific information --></li>
+  </ul>
+  </blockquote>
+
+  <div class="site-footer">
+    <p>胸腔外科衛教資料 Thoracic Surgery Patient Education | v2.0 | 2026-03-31</p>
+    <p><a href="../../../index.html">返回首頁 Back to Home</a></p>
+  </div>
+
+  <a href="#" class="back-to-top" title="Back to top">↑</a>
+</body>
+</html>

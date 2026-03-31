@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 520" font-family="Arial, sans-serif">
+  <!-- Title -->
+  <text x="325" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#333">高解析度食道壓力測定 (High-Resolution Manometry, HRM)</text>
+  <text x="325" y="48" text-anchor="middle" font-size="12" fill="#666">檢查示意圖 Procedure Diagram</text>
+
+  <!-- Patient head outline (side view) -->
+  <ellipse cx="120" cy="130" rx="55" ry="65" fill="#FFE0B2" stroke="#E65100" stroke-width="1.5"/>
+  <!-- Nose -->
+  <path d="M170,115 Q185,115 183,130 Q180,140 170,140" fill="#FFE0B2" stroke="#E65100" stroke-width="1.5"/>
+  <!-- Eye -->
+  <ellipse cx="145" cy="115" rx="8" ry="5" fill="white" stroke="#5D4037" stroke-width="1"/>
+  <circle cx="147" cy="115" r="3" fill="#5D4037"/>
+
+  <!-- Nasal cavity / throat path -->
+  <path d="M183,125 Q195,125 200,140 Q205,160 195,185 Q185,210 180,240" fill="none" stroke="#BDBDBD" stroke-width="15" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Esophagus -->
+  <path d="M170,240 Q165,260 165,300 L165,420 Q165,440 175,450" fill="none" stroke="#FFE0B2" stroke-width="30" opacity="0.5"/>
+  <path d="M150,240 L150,420 Q150,445 170,455" fill="none" stroke="#E65100" stroke-width="1.5"/>
+  <path d="M200,240 L200,420 Q200,445 180,455" fill="none" stroke="#E65100" stroke-width="1.5"/>
+
+  <!-- LES region -->
+  <rect x="142" y="410" width="66" height="25" rx="8" fill="#FF9800" opacity="0.3" stroke="#E65100" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="175" y="427" text-anchor="middle" font-size="9" fill="#E65100">LES</text>
+
+  <!-- Stomach -->
+  <ellipse cx="175" cy="470" rx="50" ry="22" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+  <text x="175" y="474" text-anchor="middle" font-size="10" fill="#5D4037">胃 Stomach</text>
+
+  <!-- HRM Catheter -->
+  <line x1="183" y1="125" x2="195" y2="160" stroke="#1565C0" stroke-width="3"/>
+  <line x1="195" y1="160" x2="185" y2="210" stroke="#1565C0" stroke-width="3"/>
+  <line x1="185" y1="210" x2="177" y2="440" stroke="#1565C0" stroke-width="3"/>
+
+  <!-- Pressure sensors on catheter (36 sensors represented) -->
+  <circle cx="193" cy="170" r="3" fill="#F44336"/>
+  <circle cx="191" cy="185" r="3" fill="#F44336"/>
+  <circle cx="189" cy="200" r="3" fill="#F44336"/>
+  <circle cx="186" cy="220" r="3" fill="#FF9800"/>
+  <circle cx="185" cy="240" r="3" fill="#FF9800"/>
+  <circle cx="184" cy="260" r="3" fill="#FFC107"/>
+  <circle cx="183" cy="280" r="3" fill="#FFC107"/>
+  <circle cx="182" cy="300" r="3" fill="#4CAF50"/>
+  <circle cx="181" cy="320" r="3" fill="#4CAF50"/>
+  <circle cx="180" cy="340" r="3" fill="#2196F3"/>
+  <circle cx="180" cy="360" r="3" fill="#2196F3"/>
+  <circle cx="179" cy="380" r="3" fill="#9C27B0"/>
+  <circle cx="178" cy="400" r="3" fill="#9C27B0"/>
+  <circle cx="178" cy="420" r="3" fill="#9C27B0"/>
+
+  <!-- Sensor label -->
+  <line x1="193" y1="170" x2="230" y2="155" stroke="#999" stroke-width="0.8"/>
+  <text x="235" y="152" font-size="10" fill="#666">壓力感測器 (36 個)</text>
+  <text x="235" y="165" font-size="9" fill="#999">Pressure Sensors (36)</text>
+
+  <!-- UES label -->
+  <line x1="190" y1="195" x2="230" y2="195" stroke="#999" stroke-width="0.8"/>
+  <text x="235" y="192" font-size="10" fill="#E65100">上食道括約肌 (UES)</text>
+  <text x="235" y="205" font-size="9" fill="#999">Upper Esophageal Sphincter</text>
+
+  <!-- Esophageal body label -->
+  <line x1="182" y1="300" x2="230" y2="300" stroke="#999" stroke-width="0.8"/>
+  <text x="235" y="297" font-size="10" fill="#2196F3">食道本體</text>
+  <text x="235" y="310" font-size="9" fill="#999">Esophageal Body</text>
+
+  <!-- LES label -->
+  <line x1="178" y1="420" x2="230" y2="420" stroke="#999" stroke-width="0.8"/>
+  <text x="235" y="417" font-size="10" fill="#9C27B0">下食道括約肌 (LES)</text>
+  <text x="235" y="430" font-size="9" fill="#999">Lower Esophageal Sphincter</text>
+
+  <!-- Recording device -->
+  <rect x="420" y="80" width="200" height="140" rx="10" fill="#E3F2FD" stroke="#1565C0" stroke-width="2"/>
+  <text x="520" y="105" text-anchor="middle" font-size="12" font-weight="bold" fill="#1565C0">壓力記錄儀</text>
+  <text x="520" y="120" text-anchor="middle" font-size="10" fill="#666">Recording Device</text>
+
+  <!-- Simulated Clouse plot inside device -->
+  <rect x="440" y="130" width="160" height="75" rx="3" fill="#263238"/>
+  <!-- Color bands simulating Clouse plot -->
+  <rect x="445" y="135" width="150" height="5" fill="#1565C0"/>
+  <rect x="445" y="142" width="150" height="3" fill="#4CAF50"/>
+  <rect x="445" y="147" width="150" height="25" fill="#0D47A1" opacity="0.3"/>
+  <rect x="455" y="150" width="15" height="15" fill="#F44336" opacity="0.7" rx="2"/>
+  <rect x="480" y="152" width="12" height="12" fill="#FF9800" opacity="0.7" rx="2"/>
+  <rect x="500" y="155" width="10" height="8" fill="#FFC107" opacity="0.7" rx="2"/>
+  <rect x="445" y="174" width="150" height="5" fill="#9C27B0"/>
+  <rect x="445" y="181" width="150" height="20" fill="#0D47A1" opacity="0.2"/>
+  <text x="520" y="197" text-anchor="middle" font-size="8" fill="#90CAF9">Clouse Plot</text>
+
+  <!-- Connection line from catheter to device -->
+  <path d="M183,125 Q250,90 420,130" fill="none" stroke="#1565C0" stroke-width="2" stroke-dasharray="6,3"/>
+
+  <!-- Procedure steps -->
+  <rect x="420" y="260" width="210" height="230" rx="8" fill="#F5F5F5" stroke="#BDBDBD" stroke-width="1"/>
+  <text x="525" y="285" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">檢查步驟 Procedure</text>
+
+  <text x="435" y="310" font-size="11" fill="#1565C0" font-weight="bold">1.</text>
+  <text x="455" y="310" font-size="11" fill="#333">鼻腔局部麻醉</text>
+  <text x="455" y="325" font-size="9" fill="#999">Nasal anesthesia</text>
+
+  <text x="435" y="350" font-size="11" fill="#1565C0" font-weight="bold">2.</text>
+  <text x="455" y="350" font-size="11" fill="#333">經鼻置入導管</text>
+  <text x="455" y="365" font-size="9" fill="#999">Insert catheter via nose</text>
+
+  <text x="435" y="390" font-size="11" fill="#1565C0" font-weight="bold">3.</text>
+  <text x="455" y="390" font-size="11" fill="#333">吞嚥 10 次水 (每次 5mL)</text>
+  <text x="455" y="405" font-size="9" fill="#999">10 water swallows (5mL each)</text>
+
+  <text x="435" y="430" font-size="11" fill="#1565C0" font-weight="bold">4.</text>
+  <text x="455" y="430" font-size="11" fill="#333">記錄壓力數據</text>
+  <text x="455" y="445" font-size="9" fill="#999">Record pressure data</text>
+
+  <text x="435" y="470" font-size="11" fill="#1565C0" font-weight="bold">5.</text>
+  <text x="455" y="470" font-size="11" fill="#333">全程約 10-15 分鐘</text>
+  <text x="455" y="485" font-size="9" fill="#999">Duration: 10-15 minutes</text>
+
+  <!-- Catheter diameter note -->
+  <text x="325" y="510" text-anchor="middle" font-size="10" fill="#666">導管直徑約 4mm (約 1/8 英吋) | Catheter diameter ~4mm (~1/8 inch)</text>
+</svg>

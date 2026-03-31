@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" font-family="Arial, sans-serif">
+  <!-- Title -->
+  <text x="350" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">正常食道 vs 食道弛緩不能症 (Normal vs Achalasia)</text>
+
+  <!-- Normal Esophagus - Left Side -->
+  <text x="175" y="60" text-anchor="middle" font-size="15" font-weight="bold" fill="#2196F3">正常食道 Normal</text>
+
+  <!-- Normal esophagus body -->
+  <path d="M130,80 Q130,80 125,100 L120,200 Q118,250 120,300 L125,350 Q130,370 140,380 L145,385 Q175,400 205,385 L210,380 Q220,370 225,350 L230,300 Q232,250 230,200 L225,100 Q220,80 220,80" fill="#FFE0B2" stroke="#E65100" stroke-width="2"/>
+
+  <!-- Normal food bolus moving down -->
+  <circle cx="175" cy="150" r="12" fill="#8BC34A" opacity="0.8"/>
+  <text x="175" y="154" text-anchor="middle" font-size="10" fill="white">食物</text>
+
+  <!-- Normal peristalsis arrows -->
+  <path d="M110,130 L120,140" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <path d="M110,160 L120,170" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <path d="M240,130 L230,140" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <path d="M240,160 L230,170" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+  <!-- Normal LES - open -->
+  <rect x="140" y="370" width="70" height="20" rx="5" fill="#4CAF50" opacity="0.6"/>
+  <text x="175" y="384" text-anchor="middle" font-size="10" fill="white" font-weight="bold">LES 放鬆</text>
+  <text x="175" y="410" text-anchor="middle" font-size="11" fill="#666">下食道括約肌正常放鬆</text>
+  <text x="175" y="425" text-anchor="middle" font-size="9" fill="#999">LES relaxes normally</text>
+
+  <!-- Normal stomach -->
+  <ellipse cx="175" cy="460" rx="60" ry="25" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+  <text x="175" y="464" text-anchor="middle" font-size="11" fill="#5D4037">胃 Stomach</text>
+
+  <!-- Arrow showing food passing -->
+  <path d="M175,390 L175,430" stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowGreen)"/>
+
+  <!-- Labels for normal -->
+  <text x="70" y="130" text-anchor="end" font-size="10" fill="#666">正常蠕動</text>
+  <text x="70" y="145" text-anchor="end" font-size="9" fill="#999">Peristalsis</text>
+
+  <!-- ==================== -->
+  <!-- Divider -->
+  <line x1="350" y1="55" x2="350" y2="490" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="8,4"/>
+  <text x="350" y="498" text-anchor="middle" font-size="10" fill="#999">VS</text>
+
+  <!-- ==================== -->
+  <!-- Achalasia Esophagus - Right Side -->
+  <text x="525" y="60" text-anchor="middle" font-size="15" font-weight="bold" fill="#F44336">弛緩不能症 Achalasia</text>
+
+  <!-- Dilated esophagus body -->
+  <path d="M460,80 Q455,80 445,100 L430,200 Q420,260 425,320 L440,360 Q455,380 470,388 L480,392 Q525,410 570,392 L580,388 Q595,380 610,360 L625,320 Q630,260 620,200 L605,100 Q595,80 590,80" fill="#FFCDD2" stroke="#C62828" stroke-width="2"/>
+
+  <!-- Accumulated food in dilated esophagus -->
+  <ellipse cx="525" cy="180" rx="30" ry="15" fill="#8BC34A" opacity="0.5"/>
+  <ellipse cx="525" cy="220" rx="35" ry="15" fill="#8BC34A" opacity="0.5"/>
+  <ellipse cx="525" cy="260" rx="38" ry="15" fill="#8BC34A" opacity="0.6"/>
+  <ellipse cx="525" cy="300" rx="35" ry="15" fill="#8BC34A" opacity="0.7"/>
+  <text x="525" y="264" text-anchor="middle" font-size="10" fill="#33691E" font-weight="bold">食物堆積</text>
+
+  <!-- X marks for failed peristalsis -->
+  <text x="415" y="160" font-size="16" fill="#F44336" font-weight="bold">✗</text>
+  <text x="415" y="200" font-size="16" fill="#F44336" font-weight="bold">✗</text>
+  <text x="640" y="160" font-size="16" fill="#F44336" font-weight="bold">✗</text>
+  <text x="640" y="200" font-size="16" fill="#F44336" font-weight="bold">✗</text>
+
+  <!-- Achalasia LES - closed/tight -->
+  <rect x="485" y="378" width="80" height="22" rx="5" fill="#F44336" opacity="0.8"/>
+  <text x="525" y="393" text-anchor="middle" font-size="10" fill="white" font-weight="bold">LES 無法放鬆</text>
+  <text x="525" y="418" text-anchor="middle" font-size="11" fill="#C62828">下食道括約肌持續緊縮</text>
+  <text x="525" y="433" text-anchor="middle" font-size="9" fill="#999">LES fails to relax</text>
+
+  <!-- Blocked arrow -->
+  <line x1="525" y1="400" x2="525" y2="440" stroke="#F44336" stroke-width="2"/>
+  <text x="525" y="450" text-anchor="middle" font-size="18" fill="#F44336">⊘</text>
+
+  <!-- Stomach (smaller view, blocked) -->
+  <ellipse cx="525" cy="475" rx="50" ry="20" fill="#FFCC80" stroke="#E65100" stroke-width="1.5" opacity="0.5"/>
+  <text x="525" y="479" text-anchor="middle" font-size="10" fill="#5D4037">胃 Stomach</text>
+
+  <!-- Labels for achalasia -->
+  <text x="400" y="155" text-anchor="end" font-size="10" fill="#F44336">蠕動異常</text>
+  <text x="400" y="170" text-anchor="end" font-size="9" fill="#999">Dysmotility</text>
+
+  <text x="400" y="250" text-anchor="end" font-size="10" fill="#C62828">食道擴張</text>
+  <text x="400" y="265" text-anchor="end" font-size="9" fill="#999">Dilation</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4CAF50"/>
+    </marker>
+  </defs>
+</svg>

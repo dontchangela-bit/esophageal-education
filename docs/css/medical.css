@@ -1,0 +1,269 @@
+/* 胸腔外科衛教資料 - 簡潔醫療風 CSS */
+
+:root {
+  --primary: #1565C0;
+  --primary-light: #E3F2FD;
+  --primary-dark: #0D47A1;
+  --accent: #00897B;
+  --text: #212121;
+  --text-secondary: #616161;
+  --bg: #FAFAFA;
+  --white: #FFFFFF;
+  --border: #E0E0E0;
+  --success: #2E7D32;
+  --warning: #F57F17;
+  --danger: #C62828;
+  --info-bg: #E8F5E9;
+  --hospital-bg: #FFF3E0;
+  --image-placeholder-bg: #F3E5F5;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Microsoft JhengHei", "Noto Sans TC", "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text);
+  background: var(--bg);
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 40px 60px;
+}
+
+/* Header & Navigation */
+.site-header {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+.site-header h1 { font-size: 1.5em; margin-bottom: 5px; }
+.site-header p { opacity: 0.85; font-size: 0.9em; }
+
+.breadcrumb {
+  font-size: 0.85em;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+.breadcrumb a { color: var(--primary); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+
+/* Typography */
+h1 {
+  font-size: 1.8em;
+  color: var(--primary-dark);
+  border-bottom: 3px solid var(--primary);
+  padding-bottom: 10px;
+  margin: 30px 0 20px;
+}
+h2 {
+  font-size: 1.4em;
+  color: var(--primary);
+  border-left: 4px solid var(--primary);
+  padding-left: 12px;
+  margin: 28px 0 15px;
+}
+h3 {
+  font-size: 1.15em;
+  color: var(--text);
+  margin: 22px 0 10px;
+}
+h4 { font-size: 1.05em; color: var(--text-secondary); margin: 18px 0 8px; }
+
+p { margin: 10px 0; }
+
+a { color: var(--primary); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--primary-dark); }
+
+/* Lists */
+ul, ol { margin: 10px 0 10px 25px; }
+li { margin: 4px 0; }
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  font-size: 0.95em;
+}
+th {
+  background: var(--primary);
+  color: white;
+  padding: 10px 12px;
+  text-align: left;
+  font-weight: 600;
+}
+td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+tr:nth-child(even) { background: var(--primary-light); }
+tr:hover { background: #BBDEFB; }
+
+/* Code & Pre */
+code {
+  background: #F5F5F5;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-family: "Cascadia Code", Consolas, monospace;
+}
+pre {
+  background: #263238;
+  color: #ECEFF1;
+  padding: 15px 20px;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 15px 0;
+  font-size: 0.9em;
+}
+pre code { background: none; padding: 0; color: inherit; }
+
+/* Blockquotes - Hospital Info & Image Placeholders */
+blockquote {
+  border-left: 4px solid var(--accent);
+  background: var(--info-bg);
+  padding: 12px 18px;
+  margin: 15px 0;
+  border-radius: 0 6px 6px 0;
+}
+
+/* Hospital blank sections */
+blockquote:has(strong:first-child) {
+  border-left-color: #FF9800;
+  background: var(--hospital-bg);
+}
+
+/* Images & SVG */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+img + em, img + p > em {
+  display: block;
+  text-align: center;
+  font-size: 0.85em;
+  color: var(--text-secondary);
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+/* Mermaid diagrams */
+.mermaid {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  margin: 15px 0;
+  text-align: center;
+}
+
+/* YAML frontmatter (hidden) */
+.frontmatter { display: none; }
+
+/* Horizontal rule */
+hr {
+  border: none;
+  height: 1px;
+  background: var(--border);
+  margin: 30px 0;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  border-top: 2px solid var(--border);
+  text-align: center;
+  font-size: 0.85em;
+  color: var(--text-secondary);
+}
+
+/* Back to top */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: var(--primary);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  font-size: 1.2em;
+  opacity: 0.8;
+}
+.back-to-top:hover { opacity: 1; color: white; text-decoration: none; }
+
+/* Index page specific */
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+.topic-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 18px;
+  transition: box-shadow 0.2s;
+}
+.topic-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-color: var(--primary);
+}
+.topic-card h3 {
+  color: var(--primary);
+  margin: 0 0 8px;
+  font-size: 1.05em;
+}
+.topic-card a { text-decoration: none; }
+.topic-card .links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.topic-card .links a {
+  font-size: 0.8em;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: var(--primary-light);
+  color: var(--primary);
+}
+.topic-card .links a:hover {
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+}
+
+/* Print styles */
+@media print {
+  body { max-width: 100%; padding: 0; background: white; }
+  .site-header { background: none; color: var(--text); border: 2px solid var(--primary); }
+  .back-to-top { display: none; }
+  table { page-break-inside: avoid; }
+  h2, h3 { page-break-after: avoid; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body { padding: 10px 15px 40px; font-size: 15px; }
+  h1 { font-size: 1.4em; }
+  h2 { font-size: 1.2em; }
+  table { font-size: 0.85em; }
+  .topic-grid { grid-template-columns: 1fr; }
+}

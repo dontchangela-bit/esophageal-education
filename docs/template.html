@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="$lang$">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>$if(title)$$title$$else$$pagetitle$$endif$ - 胸腔外科衛教資料</title>
+  <link rel="stylesheet" href="$css_path$css/medical.css">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad:true, theme:'default'});</script>
+</head>
+<body>
+  <div class="breadcrumb">
+    <a href="$index_path$index.html">首頁 Home</a> &gt; $if(topic)$$topic$$endif$
+  </div>
+
+  $body$
+
+  <div class="site-footer">
+    <p>胸腔外科衛教資料 Thoracic Surgery Patient Education | v2.0 | 2026-03-31</p>
+    <p><a href="$index_path$index.html">返回首頁 Back to Home</a></p>
+  </div>
+
+  <a href="#" class="back-to-top" title="Back to top">↑</a>
+</body>
+</html>
