@@ -190,6 +190,27 @@ flowchart TD
 
 ---
 
+## 2025-2026 Major Updates
+
+### ESOPEC Trial Results
+- **Trial design**: Randomized controlled trial comparing FLOT perioperative chemotherapy vs CROSS neoadjuvant chemoradiation for esophageal adenocarcinoma
+- **Key results**: FLOT regimen demonstrated superior survival and systemic disease control
+- **Impact**: NCCN has listed **FLOT perioperative chemotherapy as Preferred**, replacing the prior neoadjuvant chemoradiation standard
+- **Applicable population**: Resectable locally advanced esophageal and esophagogastric junction adenocarcinoma
+- **Note**: Esophageal squamous cell carcinoma (SCC) continues to favor neoadjuvant chemoradiation
+
+### MATTERHORN Trial + Durvalumab FDA Approval (November 2025)
+- **Trial results**: FLOT + Durvalumab (Imfinzi) perioperative immunotherapy improved event-free survival (EFS)
+- **FDA approval**: In November 2025, the FDA approved durvalumab for early-stage gastric and esophagogastric junction cancer, making it the first immune checkpoint inhibitor approved for this indication
+- **NCCN recommendation**: FLOT + Durvalumab listed as **Category 1 Preferred regimen** for patients with PD-L1 CPS ≥ 1 or TAP Score ≥ 1
+- **Evidence level**: Strong recommendation (GRADE)
+
+### Tislelizumab New Indication (NCCN v3.2025)
+- NCCN v3.2025 added **Tislelizumab** as a preferred first-line treatment option for PD-L1-positive esophageal squamous cell carcinoma (ESCC) patients
+- Provides new dosing schedule options
+
+---
+
 ## Key Clinical Trial References
 
 | Trial | Design | Key Conclusion |

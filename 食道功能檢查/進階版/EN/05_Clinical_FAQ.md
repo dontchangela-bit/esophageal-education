@@ -350,6 +350,18 @@ Pre- and post-bariatric surgery esophageal function evaluation is receiving incr
 - Postoperative GERD symptoms: Reflux monitoring to evaluate reflux severity
 - FLIP can assess distensibility of the EGJ or anastomosis postoperatively
 
+### Q14: What is the role of AI in HRM interpretation?
+
+A 2025 systematic review (17 studies, 4,588 patients) showed that AI tools perform well in the following HRM interpretation tasks:
+
+- **Basic tasks**: Anatomical landmark identification, test quality assessment, achalasia identification -- high accuracy
+- **Advanced tasks**: Subtype classification, full Chicago Classification automation -- continuously improving
+- **Key advantage**: Reduces inter-expert interpretation variability of 30-40%
+
+Currently, AI remains a research tool and has not replaced clinician interpretation. It is anticipated that within the next 3-5 years, AI may be integrated into commercial HRM software as an assistive feature.
+
+---
+
 <!-- 🏥 Hospital-Specific Information - Please fill in -->
 > **📋 Please enter your hospital information:**
 >

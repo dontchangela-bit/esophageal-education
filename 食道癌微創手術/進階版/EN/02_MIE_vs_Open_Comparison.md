@@ -204,6 +204,23 @@ Esophagectomy is one of the surgical procedures in which the association between
 
 ---
 
+## ROBOT-2 Trial (Ongoing)
+
+| Item | Details |
+|------|---------|
+| Design | Multicenter randomized controlled superiority trial |
+| Comparison | RAMIE vs MIE (thoracoscopic/laparoscopic minimally invasive) |
+| Population | Resectable esophageal or esophagogastric junction adenocarcinoma (cT1-4a, N0-3, M0) |
+| Sample size | 218 patients (RAMIE 109 vs MIE 109) |
+| Primary endpoint | Total lymph node harvest per TIGER classification |
+| Secondary endpoints | Surgical outcomes, complications, survival, cost-effectiveness |
+| Hypothesis | RAMIE can achieve superior lymph node harvest |
+| Status | Enrollment ongoing; results expected in 2026-2027 |
+
+> This trial will provide the first large-scale RCT evidence comparing RAMIE vs MIE and is expected to clarify the role of robotic surgery in esophageal cancer treatment.
+
+---
+
 ## Future Directions
 
 1. **Single-port MIE**: National Taiwan University Hospital (NTUH) has pioneering experience

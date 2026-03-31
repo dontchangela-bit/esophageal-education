@@ -185,6 +185,34 @@ flowchart TD
 
 ---
 
+## AI-Assisted HRM Interpretation (2025 New Development)
+
+### Current Status
+
+A 2025 systematic review analyzed 17 studies (2013-2025, encompassing 4,588 patients from 6 countries), evaluating the application of artificial intelligence (AI) in HRM interpretation:
+
+| Application Area | AI Performance |
+|-----------------|----------------|
+| Anatomical landmark identification (UES/LES localization) | High accuracy |
+| Test quality assessment | High accuracy |
+| Achalasia vs non-achalasia classification | High accuracy |
+| Achalasia subtype classification (Type I/II/III) | Good accuracy |
+| Full Chicago Classification automated diagnosis | Improving, still awaiting validation |
+
+### Technical Approaches
+- **Convolutional neural networks (CNN)**: Direct analysis of Clouse Plot images
+- **Machine learning (ML)**: Classification based on HRM numerical parameters
+- 82% of studies were published after 2020, indicating rapid growth in this field
+
+### Clinical Significance
+- **Addressing inter-expert interpretation variability**: Currently, even among experts, HRM interpretation disagreement rates reach 30-40%
+- **Potential applications**: May serve as a clinical decision support tool in the future, improving diagnostic consistency
+- **Current limitations**: Most studies use expert analysis as the reference standard; the actual impact of AI diagnosis on clinical outcomes has not yet been validated
+
+> AI-assisted HRM interpretation is one of the most promising technological developments in esophageal function testing, but it is currently still in the research validation phase and has not yet been widely adopted in clinical practice.
+
+---
+
 ## Current Status in Taiwan
 
 Several medical centers in Taiwan currently have HRM testing capability:

@@ -101,6 +101,17 @@ Post-operative GERD is the most critical difference when comparing POEM and LHM:
 | Re-treatment rate (within 5 years) | 5–15% | 10–15% | 25–40% |
 | Re-treatment options | Repeat POEM, PD, LHM | PD, POEM | Repeat PD, POEM, LHM |
 
+### 2025 Long-Term Follow-Up Meta-Analysis
+
+A 2025 systematic review and meta-analysis (9 studies, 1,099 patients, mean follow-up 34.2 months) demonstrated:
+
+- **No significant difference in long-term treatment success between POEM and LHM**
+- Clinical success rate of 583 POEM patients was comparable to LHM
+- A separate large cohort study (319 patients, median follow-up 73 months) showed a long-term POEM success rate of **92.6%**
+- During long-term follow-up, symptomatic GERD incidence was 28.9% and reflux esophagitis was 35.3%
+
+> **Conclusion**: Long-term efficacy of POEM has been more thoroughly validated, comparable to LHM, though GERD management remains an important consideration.
+
 ---
 
 ### Learning Curve
@@ -135,6 +146,32 @@ The Society of American Gastrointestinal and Endoscopic Surgeons (SAGES) publish
 - For **Type III achalasia**, POEM is recommended as first-line due to the ability to extend the myotomy
 - LHM + Fundoplication has an advantage in **reducing post-operative GERD**
 - **The final choice should be based on**: patient subtype, operator experience, patient preference, and GERD risk assessment
+
+---
+
+### POEM-F: POEM with Fundoplication (2025-2026 New Development)
+
+POEM-F (Peroral Endoscopic Myotomy with Fundoplication) is an innovative solution targeting post-POEM reflux, completing both myotomy and fundoplication in a single endoscopic procedure.
+
+#### 2026 Meta-Analysis Results (9 Studies, 202 Patients)
+
+| Indicator | POEM-F Results |
+|-----------|---------------|
+| Technical success rate | 94.8% |
+| Achalasia clinical success rate | 96.4% |
+| GERD resolution rate | 86.2% |
+| Mean procedure time | 115.7 minutes (fundoplication portion approximately 55 minutes) |
+| Re-intervention rate | 0% (at 6-month follow-up) |
+
+#### Comparison with Standard POEM
+
+| Indicator | Standard POEM | POEM-F |
+|-----------|--------------|--------|
+| Post-operative GERD (symptomatic) | 20-50% | Significantly reduced |
+| Abnormal acid exposure | 43-47% | Approximately 11% (1-year follow-up) |
+| Esophagitis | 13-19% | Significantly reduced |
+
+> **Clinical significance**: POEM-F may address POEM's primary drawback -- post-operative reflux -- while preserving the advantages of endoscopic minimally invasive approach. Current evidence is primarily from small-scale studies; larger RCTs are needed for validation. This technique is performed at select specialized centers.
 
 ---
 

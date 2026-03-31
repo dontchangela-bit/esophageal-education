@@ -150,11 +150,18 @@ All guidelines employ the **GRADE methodology** (Grading of Recommendations, Ass
 
 ## IV. EAES 2026 Multi-Society Guideline (In Development)
 
-### Guideline Background
-- Lead organization: European Association for Endoscopic Surgery (EAES)
-- Multi-society collaboration, including the European Society of Gastrointestinal Endoscopy and others
-- Expected publication: 2026
-- Goal: Integrate the latest evidence to provide comprehensive achalasia diagnostic and treatment recommendations
+### EAES 2026 Multi-Society Clinical Practice Guideline (In Development -- Expected Publication 2026)
+
+| Item | Details |
+|------|---------|
+| Lead society | EAES (European Association for Endoscopic Surgery) |
+| Collaborating societies | AATS (American Association for Thoracic Surgery), SAGES (Society of American Gastrointestinal and Endoscopic Surgeons) |
+| Methodology | Systematic literature search through July 2025 + GRADE methodology |
+| Expert panel | International multidisciplinary team: 4 GI surgeons, 2 gastroenterologists, 1 thoracic surgeon, 2 patient representatives |
+| Target journal | Surgical Endoscopy (official journal of EAES and SAGES) |
+| Expected impact | Will provide transatlantic unified recommendations integrating the latest evidence from Europe and America |
+
+> This is the first achalasia treatment guideline jointly developed by three major European and American societies, and is expected to have a significant impact on global treatment consensus.
 
 ### Anticipated Scope (Based on Published Conference Reports and Preparatory Information)
 

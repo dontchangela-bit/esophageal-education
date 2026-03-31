@@ -137,6 +137,8 @@ Esophageal achalasia currently **cannot be completely cured** because the degene
 - Medium-term (3–5 years) results remain favorable
 - Per the SAGES 2024 guidelines, POEM is recommended as a **preferred** treatment option
 
+> **Latest Development (2025-2026)**: Some medical centers have begun performing "POEM-F," which combines POEM with endoscopic fundoplication in a single procedure to reduce post-operative gastroesophageal reflux. Early studies show a GERD resolution rate of 86%, but this technique is still in the developmental stage.
+
 <!-- 📷 Image placeholder -->
 > **🖼️ Please insert image:**
 > - Suggested image: POEM endoscopic view (submucosal tunnel or myotomy)

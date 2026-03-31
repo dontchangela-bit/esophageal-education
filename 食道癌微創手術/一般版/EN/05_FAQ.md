@@ -239,6 +239,19 @@ For patients who are not suitable for or do not wish to undergo surgery, other t
 
 ---
 
+## Q16: Is immunotherapy available for esophageal cancer now?
+
+Yes. In late 2025, the U.S. FDA approved the immunotherapy drug durvalumab (Imfinzi) for early-stage esophageal cancer, making it the first immune checkpoint inhibitor approved for use before and after surgery.
+
+- **Eligible patients**: Esophageal and esophagogastric junction adenocarcinoma patients with positive PD-L1 testing
+- **Administration**: Used in combination with chemotherapy (FLOT regimen), given before and after surgery
+- **Efficacy**: Clinical trials demonstrated improved event-free survival
+- **Cost**: Coverage under Taiwan's National Health Insurance is still being evaluated; partial out-of-pocket costs may apply
+
+> The addition of immunotherapy represents a major advance in esophageal cancer treatment. Discuss with your attending physician whether this option is appropriate for you.
+
+---
+
 <!-- 🏥 Hospital-Specific Information - Please fill in -->
 > **📋 Please enter your hospital information:**
 >

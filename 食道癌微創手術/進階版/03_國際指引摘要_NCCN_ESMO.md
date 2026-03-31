@@ -190,6 +190,27 @@ flowchart TD
 
 ---
 
+## 2025-2026 重大更新
+
+### ESOPEC 試驗結果
+- **試驗設計**：隨機對照試驗，比較 FLOT 周術期化療 vs CROSS 術前化放療用於食道腺癌
+- **關鍵結果**：FLOT 方案展現更優越的存活率與全身疾病控制
+- **影響**：NCCN 已將 **FLOT 周術期化療列為首選 (Preferred)**，取代先前的術前化放療標準
+- **適用對象**：可切除之局部晚期食道及食道胃接合處腺癌 (adenocarcinoma)
+- **注意**：食道鱗狀細胞癌 (SCC) 仍以術前化放療為首選
+
+### MATTERHORN 試驗 + Durvalumab FDA 核准 (2025.11)
+- **試驗結果**：FLOT + Durvalumab (Imfinzi) 周術期免疫治療，改善無事件存活率 (EFS)
+- **FDA 核准**：2025 年 11 月，FDA 核准 durvalumab 用於早期胃及食道胃接合處癌，為首個獲准用於此適應症的免疫檢查點抑制劑
+- **NCCN 建議**：FLOT + Durvalumab 列為 **Category 1 首選方案**，適用於 PD-L1 CPS ≥ 1 或 TAP Score ≥ 1 的患者
+- **證據等級**：Strong recommendation (GRADE)
+
+### Tislelizumab 新增適應症 (NCCN v3.2025)
+- NCCN v3.2025 新增 **Tislelizumab** 為食道鱗狀細胞癌 (ESCC) PD-L1 陽性患者的首選一線治療方案
+- 提供新的劑量時程選項
+
+---
+
 ## 重要臨床試驗參考
 
 | 試驗名稱 | 設計 | 關鍵結論 |
