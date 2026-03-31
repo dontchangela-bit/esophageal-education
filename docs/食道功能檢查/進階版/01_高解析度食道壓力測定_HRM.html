@@ -279,18 +279,18 @@
   <h3 id="結果判讀流程">結果判讀流程</h3>
   <p>結果依 Chicago Classification v4.0 進行階層式判讀：</p>
   <pre class="mermaid"><code>flowchart TD
-    A[HRM 原始資料] --&gt; B{IRP 是否升高？}
-    B --&gt;|是| C{蠕動型態？}
+    A[HRM 原始資料] --&gt; B{IRP 是否升高?}
+    B --&gt;|是| C{蠕動型態?}
     C --&gt;|無蠕動| D[Type I Achalasia]
     C --&gt;|全食道加壓| E[Type II Achalasia]
     C --&gt;|早發痙攣| F[Type III Achalasia]
-    C --&gt;|有蠕動存在| G[EGJOO&lt;br&gt;食道胃交界處出口阻塞]
-    B --&gt;|否| H{DCI 和 DL？}
-    H --&gt;|DCI &gt;8000| I[Jackhammer&lt;br&gt;過強蠕動]
-    H --&gt;|DL &lt;4.5s 且 DCI &gt;450| J[DES&lt;br&gt;遠端食道痙攣]
-    H --&gt;|100% 缺失蠕動| K[Absent contractility&lt;br&gt;蠕動缺失]
-    H --&gt;|&gt;70% 無效蠕動| L[IEM&lt;br&gt;無效食道蠕動]
-    H --&gt;|&gt;50% 碎裂蠕動| M[Fragmented peristalsis&lt;br&gt;碎裂蠕動]
+    C --&gt;|有蠕動存在| G[EGJOO&lt;br/&gt;食道胃交界處出口阻塞]
+    B --&gt;|否| H{DCI 和 DL?}
+    H --&gt;|DCI ﹥8000| I[Jackhammer&lt;br/&gt;過強蠕動]
+    H --&gt;|DL ﹤4.5s 且 DCI ﹥450| J[DES&lt;br/&gt;遠端食道痙攣]
+    H --&gt;|100% 缺失蠕動| K[Absent contractility&lt;br/&gt;蠕動缺失]
+    H --&gt;|﹥70% 無效蠕動| L[IEM&lt;br/&gt;無效食道蠕動]
+    H --&gt;|﹥50% 碎裂蠕動| M[Fragmented peristalsis&lt;br/&gt;碎裂蠕動]
     H --&gt;|以上皆非| N[正常食道蠕動]</code></pre>
   <hr />
   <h2 id="限制與注意事項">限制與注意事項</h2>

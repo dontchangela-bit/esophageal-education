@@ -153,13 +153,13 @@ flowchart TD
     C -->|Absent peristalsis| D[Type I Achalasia]
     C -->|Panesophageal pressurization| E[Type II Achalasia]
     C -->|Premature/spastic contractions| F[Type III Achalasia]
-    C -->|Peristalsis present| G[EGJOO<br>EGJ Outflow Obstruction]
+    C -->|Peristalsis present| G[EGJOO<br/>EGJ Outflow Obstruction]
     B -->|No| H{DCI and DL?}
-    H -->|DCI >8000| I[Jackhammer Esophagus<br>Hypercontractile]
-    H -->|DL <4.5s and DCI >450| J[DES<br>Distal Esophageal Spasm]
+    H -->|DCI ﹥8000| I[Jackhammer Esophagus<br/>Hypercontractile]
+    H -->|DL ﹤4.5s and DCI ﹥450| J[DES<br/>Distal Esophageal Spasm]
     H -->|100% failed peristalsis| K[Absent Contractility]
-    H -->|>70% ineffective| L[IEM<br>Ineffective Esophageal Motility]
-    H -->|>50% fragmented| M[Fragmented Peristalsis]
+    H -->|﹥70% ineffective| L[IEM<br/>Ineffective Esophageal Motility]
+    H -->|﹥50% fragmented| M[Fragmented Peristalsis]
     H -->|None of the above| N[Normal Esophageal Motility]
 ```
 

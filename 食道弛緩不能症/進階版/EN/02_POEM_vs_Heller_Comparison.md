@@ -255,7 +255,7 @@ flowchart TD
     I --> J[Proceed with treatment]
     J --> K[Post-operative follow-up<br/>Eckardt Score +<br/>objective testing]
 
-    K --> L{Eckardt ≤ 3?}
+    K --> L{Eckardt <= 3?}
     L -- Yes --> M[Treatment success<br/>Regular follow-up]
     L -- No --> N[Evaluate second-line<br/>treatment]
 

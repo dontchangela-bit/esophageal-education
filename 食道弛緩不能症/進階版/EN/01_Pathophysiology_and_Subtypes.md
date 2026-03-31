@@ -148,13 +148,13 @@ flowchart TD
     C -- Yes --> D[Targeted treatment<br/>e.g., tumor, stricture]
     C -- No --> E[High-resolution manometry HRM]
 
-    E --> F{Is IRP elevated?<br/>> Upper limit of normal}
+    E --> F{Is IRP elevated?<br/>above upper limit of normal}
     F -- No --> G[Not achalasia<br/>Consider other esophageal<br/>motility disorders]
     F -- Yes --> H{Esophageal body<br/>peristaltic pattern?}
 
     H --> I[Absent peristalsis +<br/>minimal pressurization<br/>→ Type I Classic]
-    H --> J[Absent peristalsis +<br/>panesophageal pressurization<br/>≥ 20% swallows ≥ 30 mmHg<br/>→ Type II Pressurization]
-    H --> K[Spastic contractions<br/>DL < 4.5 s ≥ 20% swallows<br/>→ Type III Spastic]
+    H --> J[Absent peristalsis +<br/>panesophageal pressurization<br/>>=20% swallows >=30 mmHg<br/>→ Type II Pressurization]
+    H --> K[Spastic contractions<br/>DL ﹤4.5 s >=20% swallows<br/>→ Type III Spastic]
 
     I --> L[Barium swallow + TBE<br/>Evaluate esophageal morphology<br/>and emptying]
     J --> L

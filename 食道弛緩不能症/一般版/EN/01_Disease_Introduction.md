@@ -38,7 +38,7 @@ graph TD
 
     subgraph Achalasia
         A2[Food enters the mouth] --> B2[Esophageal peristalsis<br/>weakened or absent]
-        B2 --> C2[LES fails<br/>to relax ❌]
+        B2 --> C2[LES fails<br/>to relax X]
         C2 --> D2[Food accumulates<br/>in the esophagus<br/>causing dysphagia]
     end
 

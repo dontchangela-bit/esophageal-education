@@ -141,33 +141,33 @@ topic: esophageal-cancer-MIS
 
 ```mermaid
 flowchart TD
-    A[Esophageal cancer confirmed<br>Staging complete] --> B{Clinical stage}
+    A[Esophageal cancer confirmed<br/>Staging complete] --> B{Clinical stage}
 
-    B -->|cTis-T1a N0| C[Endoscopic resection ER<br>NCCN/ESMO: Preferred]
-    C --> C1{Resection specimen<br>pathology assessment}
-    C1 -->|Complete resection<br>no adverse features| C2[Surveillance]
-    C1 -->|Adverse features present<br>LVI/poor-diff/SM| C3[Additional surgical resection]
+    B -->|cTis-T1a N0| C[Endoscopic resection ER<br/>NCCN/ESMO: Preferred]
+    C --> C1{Resection specimen<br/>pathology assessment}
+    C1 -->|Complete resection<br/>no adverse features| C2[Surveillance]
+    C1 -->|Adverse features present<br/>LVI/poor-diff/SM| C3[Additional surgical resection]
 
     B -->|cT1b-T2 N0| D{Histology}
-    D -->|EAC| D1[Surgery<br>± perioperative chemo]
-    D -->|SCC| D2[Surgery<br>± nCRT]
+    D -->|EAC| D1[Surgery<br/>± perioperative chemo]
+    D -->|SCC| D2[Surgery<br/>± nCRT]
 
     B -->|cT3-T4a or N+| E{Histology}
-    E -->|EAC| E1[NCCN: nCRT preferred<br>ESMO: periop chemo or nCRT]
-    E -->|SCC| E2[nCRT + surgery<br>or definitive CRT]
-    E1 --> F[Surgery<br>MIE recommended at high-volume centers]
+    E -->|EAC| E1[NCCN: nCRT preferred<br/>ESMO: periop chemo or nCRT]
+    E -->|SCC| E2[nCRT + surgery<br/>or definitive CRT]
+    E1 --> F[Surgery<br/>MIE recommended at high-volume centers]
     E2 --> F
 
     F --> G{Postoperative pathology}
-    G -->|pCR| G1[Observation or<br>Adjuvant nivolumab]
-    G -->|non-pCR| G2[Adjuvant nivolumab<br>CheckMate 577]
-    G -->|Incomplete<br>periop chemo| G3[Complete remaining<br>postoperative chemo]
+    G -->|pCR| G1[Observation or<br/>Adjuvant nivolumab]
+    G -->|non-pCR| G2[Adjuvant nivolumab<br/>CheckMate 577]
+    G -->|Incomplete<br/>periop chemo| G3[Complete remaining<br/>postoperative chemo]
 
-    B -->|cT4b| H[Definitive CRT<br>± subsequent reassessment<br>of surgical feasibility]
+    B -->|cT4b| H[Definitive CRT<br/>± subsequent reassessment<br/>of surgical feasibility]
 
-    B -->|M1| I[Systemic therapy<br>Chemo + ICI<br>± targeted therapy]
+    B -->|M1| I[Systemic therapy<br/>Chemo + ICI<br/>± targeted therapy]
 
-    G1 --> J[Surveillance<br>NCCN/ESMO protocol]
+    G1 --> J[Surveillance<br/>NCCN/ESMO protocol]
     G2 --> J
     G3 --> J
 ```

@@ -151,18 +151,18 @@ Clouse plot 是 HRM 特有的視覺化方式，以色彩編碼呈現壓力數據
 
 ```mermaid
 flowchart TD
-    A[HRM 原始資料] --> B{IRP 是否升高？}
-    B -->|是| C{蠕動型態？}
+    A[HRM 原始資料] --> B{IRP 是否升高?}
+    B -->|是| C{蠕動型態?}
     C -->|無蠕動| D[Type I Achalasia]
     C -->|全食道加壓| E[Type II Achalasia]
     C -->|早發痙攣| F[Type III Achalasia]
-    C -->|有蠕動存在| G[EGJOO<br>食道胃交界處出口阻塞]
-    B -->|否| H{DCI 和 DL？}
-    H -->|DCI >8000| I[Jackhammer<br>過強蠕動]
-    H -->|DL <4.5s 且 DCI >450| J[DES<br>遠端食道痙攣]
-    H -->|100% 缺失蠕動| K[Absent contractility<br>蠕動缺失]
-    H -->|>70% 無效蠕動| L[IEM<br>無效食道蠕動]
-    H -->|>50% 碎裂蠕動| M[Fragmented peristalsis<br>碎裂蠕動]
+    C -->|有蠕動存在| G[EGJOO<br/>食道胃交界處出口阻塞]
+    B -->|否| H{DCI 和 DL?}
+    H -->|DCI ﹥8000| I[Jackhammer<br/>過強蠕動]
+    H -->|DL ﹤4.5s 且 DCI ﹥450| J[DES<br/>遠端食道痙攣]
+    H -->|100% 缺失蠕動| K[Absent contractility<br/>蠕動缺失]
+    H -->|﹥70% 無效蠕動| L[IEM<br/>無效食道蠕動]
+    H -->|﹥50% 碎裂蠕動| M[Fragmented peristalsis<br/>碎裂蠕動]
     H -->|以上皆非| N[正常食道蠕動]
 ```
 

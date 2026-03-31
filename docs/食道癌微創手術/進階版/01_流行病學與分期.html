@@ -361,21 +361,21 @@
   </ul>
   <h3 id="診斷分期演算法">診斷分期演算法</h3>
   <pre class="mermaid"><code>flowchart TD
-    A[臨床疑似食道癌] --&gt; B[EGD + ≥6 biopsies&lt;br&gt;+ NBI]
-    B --&gt; C{病理確認&lt;br&gt;惡性腫瘤？}
-    C --&gt;|否| D[追蹤或&lt;br&gt;重新評估]
-    C --&gt;|是| E[分子檢測&lt;br&gt;PD-L1, HER2,&lt;br&gt;MSI]
-    E --&gt; F[CT chest/&lt;br&gt;abdomen/pelvis]
+    A[臨床疑似食道癌] --&gt; B[EGD + &gt;=6 biopsies&lt;br/&gt;+ NBI]
+    B --&gt; C{病理確認&lt;br/&gt;惡性腫瘤?}
+    C --&gt;|否| D[追蹤或&lt;br/&gt;重新評估]
+    C --&gt;|是| E[分子檢測&lt;br/&gt;PD-L1, HER2,&lt;br/&gt;MSI]
+    E --&gt; F[CT chest/&lt;br/&gt;abdomen/pelvis]
     F --&gt; G[PET/CT]
     G --&gt; H[EUS ± FNA]
-    H --&gt; I{上段/中段&lt;br&gt;腫瘤？}
-    I --&gt;|是| J[支氣管鏡&lt;br&gt;排除氣管侵犯]
-    I --&gt;|否| K{GEJ&lt;br&gt;腺癌？}
-    K --&gt;|是| L[腹腔鏡分期&lt;br&gt;排除腹膜轉移]
+    H --&gt; I{上段/中段&lt;br/&gt;腫瘤?}
+    I --&gt;|是| J[支氣管鏡&lt;br/&gt;排除氣管侵犯]
+    I --&gt;|否| K{GEJ&lt;br/&gt;腺癌?}
+    K --&gt;|是| L[腹腔鏡分期&lt;br/&gt;排除腹膜轉移]
     K --&gt;|否| M[完成分期]
     J --&gt; M
     L --&gt; M
-    M --&gt; N[MDT 討論&lt;br&gt;制定治療計畫]
+    M --&gt; N[MDT 討論&lt;br/&gt;制定治療計畫]
     N --&gt; O{臨床分期}
     O --&gt;|cT1a N0| P[考慮 ER&lt;br&gt;內視鏡切除]
     O --&gt;|cT1b-T2 N0| Q[手術&lt;br&gt;± 術前治療]

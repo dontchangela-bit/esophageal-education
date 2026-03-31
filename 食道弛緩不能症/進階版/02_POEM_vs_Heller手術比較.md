@@ -226,15 +226,16 @@ POEM-F (Peroral Endoscopic Myotomy with Fundoplication) 是針對 POEM 術後逆
 
 ```mermaid
 flowchart TD
-    A[確診食道弛緩不能症<br/>確認亞型] --> B{適合手術/內視鏡治療？}
+    A[確診食道弛緩不能症<br/>確認亞型] --> B{適合手術/內視鏡治療?}
 
     B -- 否 --> C[BTX 注射 / 藥物治療]
-    B -- 是 --> D{亞型？}
+    B -- 是 --> D{亞型?}
 
     D --> E[Type I / Type II]
     D --> F[Type III]
 
     E --> G{患者因素考量}
+
     G --> G1[擔心 GERD → LHM + Fundoplication]
     G --> G2[偏好無傷口 → POEM]
     G --> G3[希望非手術 → PD 分級擴張]
@@ -249,7 +250,7 @@ flowchart TD
     I --> J[執行治療]
     J --> K[術後追蹤<br/>Eckardt Score + 客觀檢查]
 
-    K --> L{Eckardt ≤ 3？}
+    K --> L{Eckardt <= 3?}
     L -- 是 --> M[治療成功<br/>定期追蹤]
     L -- 否 --> N[評估二線治療]
 

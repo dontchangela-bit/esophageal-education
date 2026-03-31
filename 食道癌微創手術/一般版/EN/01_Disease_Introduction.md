@@ -129,20 +129,20 @@ Staging describes the severity of cancer. Physicians determine the stage based o
 
 ```mermaid
 flowchart TD
-    A[Suspected esophageal<br>cancer symptoms] --> B[Upper GI endoscopy<br>+ biopsy]
-    B --> C{Pathology confirms<br>esophageal cancer?}
-    C -->|No| D[Follow-up or<br>other diagnosis]
-    C -->|Yes| E[Further staging<br>workup]
+    A[Suspected esophageal<br/>cancer symptoms] --> B[Upper GI endoscopy<br/>+ biopsy]
+    B --> C{Pathology confirms<br/>esophageal cancer?}
+    C -->|No| D[Follow-up or<br/>other diagnosis]
+    C -->|Yes| E[Further staging<br/>workup]
     E --> F[CT scan]
     E --> G[PET/CT scan]
-    E --> H[Endoscopic<br>ultrasound EUS]
-    F --> I[Multidisciplinary<br>team MDT discussion]
+    E --> H[Endoscopic<br/>ultrasound EUS]
+    F --> I[Multidisciplinary<br/>team MDT discussion]
     G --> I
     H --> I
-    I --> J[Determine<br>treatment plan]
-    J --> K{Stage<br>determination}
-    K -->|Early Stage 0-I| L[Endoscopic resection<br>or surgery]
-    K -->|Intermediate Stage II-III| M[Neoadjuvant chemoradiation<br>+ minimally invasive surgery]
+    I --> J[Determine<br/>treatment plan]
+    J --> K{Stage<br/>determination}
+    K -->|Early Stage 0-I| L[Endoscopic resection<br/>or surgery]
+    K -->|Intermediate Stage II-III| M[Neoadjuvant chemoradiation<br/>+ minimally invasive surgery]
     K -->|Advanced Stage IV| N[Systemic therapy]
 ```
 

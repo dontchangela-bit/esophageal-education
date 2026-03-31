@@ -305,30 +305,30 @@
   <hr />
   <h2 id="gerd-診斷決策演算法">GERD 診斷決策演算法</h2>
   <pre class="mermaid"><code>flowchart TD
-    A[疑似 GERD 患者] --&gt; B{已做過胃鏡？}
+    A[疑似 GERD 患者] --&gt; B{已做過胃鏡?}
 
-    B --&gt;|是| C{內視鏡發現？}
+    B --&gt;|是| C{內視鏡發現?}
     B --&gt;|否| B1[先進行胃鏡評估]
     B1 --&gt; C
 
-    C --&gt;|LA C/D 食道炎&lt;br&gt;長段 Barrett&#39;s&lt;br&gt;消化性狹窄| D[確定性 GERD&lt;br&gt;開始治療]
-    C --&gt;|LA A/B 食道炎| E[不確定&lt;br&gt;建議停藥後重複胃鏡&lt;br&gt;或進行逆流監測]
-    C --&gt;|正常或非特異性發現| F{進行逆流監測&lt;br&gt;停藥狀態}
+    C --&gt;|LA C/D 食道炎&lt;br/&gt;長段 Barretts&lt;br/&gt;消化性狹窄| D[確定性 GERD&lt;br/&gt;開始治療]
+    C --&gt;|LA A/B 食道炎| E[不確定&lt;br/&gt;建議停藥後重複胃鏡&lt;br/&gt;或進行逆流監測]
+    C --&gt;|正常或非特異性發現| F{進行逆流監測&lt;br/&gt;停藥狀態}
 
-    F --&gt; G{AET 結果？}
+    F --&gt; G{AET 結果?}
 
-    G --&gt;|AET &gt; 6%| H[確定性 GERD]
-    G --&gt;|AET &lt; 4%&lt;br&gt;且逆流 &lt;40 次| I[排除病理性 GERD&lt;br&gt;考慮功能性診斷]
-    G --&gt;|AET 4-6%&lt;br&gt;或逆流 ≥40 但 AET &lt;4%| J[不確定區間]
+    G --&gt;|AET ﹥6%| H[確定性 GERD]
+    G --&gt;|AET ﹤4%&lt;br/&gt;且逆流 ﹤40 次| I[排除病理性 GERD&lt;br/&gt;考慮功能性診斷]
+    G --&gt;|AET 4-6%&lt;br/&gt;或逆流 &gt;=40 但 AET ﹤4%| J[不確定區間]
 
     J --&gt; K{輔助指標評估}
-    K --&gt;|BI 降低 +&lt;br&gt;PSPWI 降低 +&lt;br&gt;組織病理異常| L[傾向 GERD]
-    K --&gt;|BI 正常 +&lt;br&gt;PSPWI 正常 +&lt;br&gt;組織正常| M[傾向非 GERD&lt;br&gt;考慮功能性診斷]
-    K --&gt;|結果不一致| N[綜合臨床判斷&lt;br&gt;可考慮延長監測或重複檢查]
+    K --&gt;|BI 降低 +&lt;br/&gt;PSPWI 降低 +&lt;br/&gt;組織病理異常| L[傾向 GERD]
+    K --&gt;|BI 正常 +&lt;br/&gt;PSPWI 正常 +&lt;br/&gt;組織正常| M[傾向非 GERD&lt;br/&gt;考慮功能性診斷]
+    K --&gt;|結果不一致| N[綜合臨床判斷&lt;br/&gt;可考慮延長監測或重複檢查]
 
-    D --&gt; O{PPI 治療反應？}
+    D --&gt; O{PPI 治療反應?}
     O --&gt;|症狀改善| P[繼續治療]
-    O --&gt;|症狀持續| Q[服藥狀態下&lt;br&gt;pH-阻抗監測]</code></pre>
+    O --&gt;|症狀持續| Q[服藥狀態下&lt;br/&gt;pH-阻抗監測]</code></pre>
   <hr />
   <h2 id="功能性食道疾病的鑑別">功能性食道疾病的鑑別</h2>
   <p>當 GERD 被排除後，需考慮以下功能性診斷（依據 Rome IV 標準）：</p>

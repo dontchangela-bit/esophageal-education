@@ -160,24 +160,24 @@ flowchart TD
     B -->|No| B1[Perform endoscopy first]
     B1 --> C
 
-    C -->|LA C/D esophagitis<br>Long-segment Barrett's<br>Peptic stricture| D[Conclusive GERD<br>Begin treatment]
-    C -->|LA A/B esophagitis| E[Inconclusive<br>Recommend repeat endoscopy off PPI<br>or reflux monitoring]
-    C -->|Normal or non-specific findings| F{Perform reflux monitoring<br>off PPI}
+    C -->|LA C/D esophagitis<br/>Long-segment Barretts<br/>Peptic stricture| D[Conclusive GERD<br/>Begin treatment]
+    C -->|LA A/B esophagitis| E[Inconclusive<br/>Recommend repeat endoscopy off PPI<br/>or reflux monitoring]
+    C -->|Normal or non-specific findings| F{Perform reflux monitoring<br/>off PPI}
 
     F --> G{AET result?}
 
-    G -->|AET > 6%| H[Conclusive GERD]
-    G -->|AET < 4%<br>and reflux <40 episodes| I[Pathological GERD excluded<br>Consider functional diagnosis]
-    G -->|AET 4-6%<br>or reflux >=40 but AET <4%| J[Borderline zone]
+    G -->|AET ﹥6%| H[Conclusive GERD]
+    G -->|AET ﹤4%<br/>and reflux ﹤40 episodes| I[Pathological GERD excluded<br/>Consider functional diagnosis]
+    G -->|AET 4-6%<br/>or reflux >=40 but AET ﹤4%| J[Borderline zone]
 
     J --> K{Adjunctive metric assessment}
-    K -->|BI decreased +<br>PSPWI decreased +<br>Histopathology abnormal| L[Favors GERD]
-    K -->|BI normal +<br>PSPWI normal +<br>Histology normal| M[Favors non-GERD<br>Consider functional diagnosis]
-    K -->|Discordant results| N[Comprehensive clinical judgment<br>Consider extended monitoring or repeat testing]
+    K -->|BI decreased +<br/>PSPWI decreased +<br/>Histopathology abnormal| L[Favors GERD]
+    K -->|BI normal +<br/>PSPWI normal +<br/>Histology normal| M[Favors non-GERD<br/>Consider functional diagnosis]
+    K -->|Discordant results| N[Comprehensive clinical judgment<br/>Consider extended monitoring or repeat testing]
 
     D --> O{PPI treatment response?}
     O -->|Symptoms improved| P[Continue treatment]
-    O -->|Symptoms persist| Q[On-PPI<br>pH-impedance monitoring]
+    O -->|Symptoms persist| Q[On-PPI<br/>pH-impedance monitoring]
 ```
 
 ---

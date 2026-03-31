@@ -141,33 +141,33 @@ topic: esophageal-cancer-MIS
 
 ```mermaid
 flowchart TD
-    A[食道癌確診<br>完成分期] --> B{臨床分期}
+    A[食道癌確診<br/>完成分期] --> B{臨床分期}
 
-    B -->|cTis-T1a N0| C[內視鏡切除 ER<br>NCCN/ESMO: 首選]
-    C --> C1{切除標本<br>病理評估}
-    C1 -->|完全切除<br>無不良因子| C2[追蹤監測]
-    C1 -->|有不良因子<br>LVI/poor-diff/SM| C3[追加手術切除]
+    B -->|cTis-T1a N0| C[內視鏡切除 ER<br/>NCCN/ESMO: 首選]
+    C --> C1{切除標本<br/>病理評估}
+    C1 -->|完全切除<br/>無不良因子| C2[追蹤監測]
+    C1 -->|有不良因子<br/>LVI/poor-diff/SM| C3[追加手術切除]
 
     B -->|cT1b-T2 N0| D{組織學}
-    D -->|EAC| D1[手術<br>± 周術期化療]
-    D -->|SCC| D2[手術<br>± nCRT]
+    D -->|EAC| D1[手術<br/>± 周術期化療]
+    D -->|SCC| D2[手術<br/>± nCRT]
 
     B -->|cT3-T4a 或 N+| E{組織學}
-    E -->|EAC| E1[NCCN: nCRT 首選<br>ESMO: periop chemo 或 nCRT]
-    E -->|SCC| E2[nCRT + 手術<br>或 definitive CRT]
-    E1 --> F[手術<br>MIE 建議於高手術量中心]
+    E -->|EAC| E1[NCCN: nCRT 首選<br/>ESMO: periop chemo 或 nCRT]
+    E -->|SCC| E2[nCRT + 手術<br/>或 definitive CRT]
+    E1 --> F[手術<br/>MIE 建議於高手術量中心]
     E2 --> F
 
     F --> G{術後病理}
-    G -->|pCR| G1[觀察 或<br>Adjuvant nivolumab]
-    G -->|non-pCR| G2[Adjuvant nivolumab<br>CheckMate 577]
-    G -->|未完成<br>periop chemo| G3[完成剩餘<br>術後化療]
+    G -->|pCR| G1[觀察 或<br/>Adjuvant nivolumab]
+    G -->|non-pCR| G2[Adjuvant nivolumab<br/>CheckMate 577]
+    G -->|未完成<br/>periop chemo| G3[完成剩餘<br/>術後化療]
 
-    B -->|cT4b| H[Definitive CRT<br>± 後續評估手術可行性]
+    B -->|cT4b| H[Definitive CRT<br/>± 後續評估手術可行性]
 
-    B -->|M1| I[全身性治療<br>Chemo + ICI<br>± 標靶治療]
+    B -->|M1| I[全身性治療<br/>Chemo + ICI<br/>± 標靶治療]
 
-    G1 --> J[追蹤監測<br>NCCN/ESMO protocol]
+    G1 --> J[追蹤監測<br/>NCCN/ESMO protocol]
     G2 --> J
     G3 --> J
 ```

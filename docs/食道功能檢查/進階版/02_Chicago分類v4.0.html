@@ -292,24 +292,24 @@
   <hr />
   <h2 id="診斷演算法">診斷演算法</h2>
   <pre class="mermaid"><code>flowchart TD
-    A[HRM 檢查完成&lt;br&gt;仰臥位 + 直立位 + 激發測試] --&gt; B{仰臥位 IRP 升高？}
+    A[HRM 檢查完成&lt;br/&gt;仰臥位 + 直立位 + 激發測試] --&gt; B{仰臥位 IRP 升高?}
 
-    B --&gt;|是| C{直立位 IRP 也升高？}
+    B --&gt;|是| C{直立位 IRP 也升高?}
     B --&gt;|否| H{蠕動功能評估}
 
-    C --&gt;|是| D{蠕動型態？}
-    C --&gt;|否| G[不確定性 EGJOO&lt;br&gt;需進一步評估&lt;br&gt;FLIP / 鋇劑攝影]
+    C --&gt;|是| D{蠕動型態?}
+    C --&gt;|否| G[不確定性 EGJOO&lt;br/&gt;需進一步評估&lt;br/&gt;FLIP / 鋇劑攝影]
 
     D --&gt;|無蠕動 + 無加壓| D1[確定性 Type I Achalasia]
-    D --&gt;|無蠕動 + 全食道加壓 ≥20%| D2[確定性 Type II Achalasia]
-    D --&gt;|無蠕動 + 早發收縮 ≥20%| D3[確定性 Type III Achalasia]
-    D --&gt;|蠕動保留| D4[確定性 EGJOO&lt;br&gt;需排除機械性阻塞]
+    D --&gt;|無蠕動 + 全食道加壓 &gt;=20%| D2[確定性 Type II Achalasia]
+    D --&gt;|無蠕動 + 早發收縮 &gt;=20%| D3[確定性 Type III Achalasia]
+    D --&gt;|蠕動保留| D4[確定性 EGJOO&lt;br/&gt;需排除機械性阻塞]
 
-    H --&gt;|DL &lt;4.5s ≥20%| I[DES 遠端食道痙攣]
-    H --&gt;|DCI &gt;8000 ≥20%| J[Jackhammer 過強蠕動]
-    H --&gt;|100% DCI &lt;100| K[Absent Contractility&lt;br&gt;蠕動缺失]
-    H --&gt;|&gt;70% 無效| L[IEM 無效食道蠕動]
-    H --&gt;|&gt;50% 碎裂| M[Fragmented Peristalsis&lt;br&gt;碎裂蠕動]
+    H --&gt;|DL ﹤4.5s &gt;=20%| I[DES 遠端食道痙攣]
+    H --&gt;|DCI ﹥8000 &gt;=20%| J[Jackhammer 過強蠕動]
+    H --&gt;|100% DCI ﹤100| K[Absent Contractility&lt;br/&gt;蠕動缺失]
+    H --&gt;|﹥70% 無效| L[IEM 無效食道蠕動]
+    H --&gt;|﹥50% 碎裂| M[Fragmented Peristalsis&lt;br/&gt;碎裂蠕動]
     H --&gt;|以上皆非| N[正常食道運動功能]</code></pre>
   <hr />
   <h2 id="正常值速查表">正常值速查表</h2>

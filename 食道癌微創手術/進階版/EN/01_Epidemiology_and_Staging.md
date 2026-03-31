@@ -176,26 +176,26 @@ Risk stratification based on staging, histological features, and molecular marke
 
 ```mermaid
 flowchart TD
-    A[Clinically suspected<br>esophageal cancer] --> B[EGD + ≥6 biopsies<br>+ NBI]
-    B --> C{Pathology confirms<br>malignancy?}
-    C -->|No| D[Follow-up or<br>re-evaluation]
-    C -->|Yes| E[Molecular testing<br>PD-L1, HER2,<br>MSI]
-    E --> F[CT chest/<br>abdomen/pelvis]
+    A[Clinically suspected<br/>esophageal cancer] --> B[EGD + >=6 biopsies<br/>+ NBI]
+    B --> C{Pathology confirms<br/>malignancy?}
+    C -->|No| D[Follow-up or<br/>re-evaluation]
+    C -->|Yes| E[Molecular testing<br/>PD-L1, HER2,<br/>MSI]
+    E --> F[CT chest/<br/>abdomen/pelvis]
     F --> G[PET/CT]
     G --> H[EUS ± FNA]
-    H --> I{Upper/middle<br>esophageal tumor?}
-    I -->|Yes| J[Bronchoscopy<br>Rule out tracheal invasion]
-    I -->|No| K{GEJ<br>adenocarcinoma?}
-    K -->|Yes| L[Diagnostic laparoscopy<br>Rule out peritoneal metastasis]
+    H --> I{Upper/middle<br/>esophageal tumor?}
+    I -->|Yes| J[Bronchoscopy<br/>Rule out tracheal invasion]
+    I -->|No| K{GEJ<br/>adenocarcinoma?}
+    K -->|Yes| L[Diagnostic laparoscopy<br/>Rule out peritoneal metastasis]
     K -->|No| M[Staging complete]
     J --> M
     L --> M
-    M --> N[MDT discussion<br>Formulate treatment plan]
+    M --> N[MDT discussion<br/>Formulate treatment plan]
     N --> O{Clinical stage}
-    O -->|cT1a N0| P[Consider ER<br>Endoscopic resection]
-    O -->|cT1b-T2 N0| Q[Surgery<br>± neoadjuvant therapy]
-    O -->|cT3-T4a or N+| R[Neoadjuvant therapy<br>+ surgery]
-    O -->|cT4b or M1| S[Systemic therapy<br>± palliative radiation]
+    O -->|cT1a N0| P[Consider ER<br/>Endoscopic resection]
+    O -->|cT1b-T2 N0| Q[Surgery<br/>± neoadjuvant therapy]
+    O -->|cT3-T4a or N+| R[Neoadjuvant therapy<br/>+ surgery]
+    O -->|cT4b or M1| S[Systemic therapy<br/>± palliative radiation]
 ```
 
 ---

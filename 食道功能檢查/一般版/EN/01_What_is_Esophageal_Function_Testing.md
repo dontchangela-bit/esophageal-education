@@ -55,11 +55,11 @@ graph TD
     A --> C[Reflux Monitoring Tests]
     A --> D[Other Functional Tests]
 
-    B --> B1[High-Resolution Manometry<br>HRM]
+    B --> B1[High-Resolution Manometry<br/>HRM]
     C --> C1[24-Hour pH Monitoring]
     C --> C2[pH-Impedance Monitoring]
-    C --> C3[Wireless pH Monitoring<br>Bravo]
-    D --> D1[Functional Lumen Imaging Probe<br>FLIP]
+    C --> C3[Wireless pH Monitoring<br/>Bravo]
+    D --> D1[Functional Lumen Imaging Probe<br/>FLIP]
 ```
 
 ### Quick Overview
@@ -78,17 +78,17 @@ graph TD
 
 ```mermaid
 flowchart TD
-    Start[You have dysphagia, chest pain,<br>or reflux symptoms] --> Q1{Have you had an<br>endoscopy or other<br>basic tests?}
-    Q1 -->|No| A1[Recommended to have<br>basic tests first,<br>such as endoscopy]
-    Q1 -->|Yes| Q2{Can the results<br>explain your symptoms?}
-    Q2 -->|Yes| A2[Treat based on<br>test results]
-    Q2 -->|No| Q3{How effective is<br>medical therapy?}
-    Q3 -->|Effective| A3[Continue medication<br>with regular follow-up]
-    Q3 -->|Ineffective or uncertain| A4[Esophageal function<br>testing recommended]
-    A4 --> Q4{Physician selects<br>appropriate test}
-    Q4 --> R1[HRM<br>Manometry]
-    Q4 --> R2[pH Monitoring<br>Reflux Detection]
-    Q4 --> R3[FLIP<br>Compliance Assessment]
+    Start[You have dysphagia, chest pain,<br/>or reflux symptoms] --> Q1{Have you had an<br/>endoscopy or other<br/>basic tests?}
+    Q1 -->|No| A1[Recommended to have<br/>basic tests first,<br/>such as endoscopy]
+    Q1 -->|Yes| Q2{Can the results<br/>explain your symptoms?}
+    Q2 -->|Yes| A2[Treat based on<br/>test results]
+    Q2 -->|No| Q3{How effective is<br/>medical therapy?}
+    Q3 -->|Effective| A3[Continue medication<br/>with regular follow-up]
+    Q3 -->|Ineffective or uncertain| A4[Esophageal function<br/>testing recommended]
+    A4 --> Q4{Physician selects<br/>appropriate test}
+    Q4 --> R1[HRM<br/>Manometry]
+    Q4 --> R2[pH Monitoring<br/>Reflux Detection]
+    Q4 --> R3[FLIP<br/>Compliance Assessment]
 ```
 
 ### Common Groups Requiring Testing

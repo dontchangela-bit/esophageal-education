@@ -157,16 +157,16 @@ Prehabilitation has become increasingly recognized as an important preparation. 
 
 ```mermaid
 flowchart LR
-    A[Confirmed diagnosis<br>and staging] --> B[MDT team<br>discusses treatment plan]
-    B --> C{Neoadjuvant<br>therapy needed?}
-    C -->|Yes| D[Neoadjuvant<br>chemoradiation<br>approx. 5-6 weeks]
-    C -->|No| E[Proceed directly<br>to surgery preparation]
-    D --> F[Rest and recovery<br>4-8 weeks]
-    F --> G[Preoperative<br>assessment and tests]
+    A[Confirmed diagnosis<br/>and staging] --> B[MDT team<br/>discusses treatment plan]
+    B --> C{Neoadjuvant<br/>therapy needed?}
+    C -->|Yes| D[Neoadjuvant<br/>chemoradiation<br/>approx. 5-6 weeks]
+    C -->|No| E[Proceed directly<br/>to surgery preparation]
+    D --> F[Rest and recovery<br/>4-8 weeks]
+    F --> G[Preoperative<br/>assessment and tests]
     E --> G
-    G --> H[Nutrition optimization<br>Exercise training<br>Smoking cessation]
-    H --> I[1 week before surgery<br>Final confirmation]
-    I --> J[Day before surgery<br>Hospital admission]
+    G --> H[Nutrition optimization<br/>Exercise training<br/>Smoking cessation]
+    H --> I[1 week before surgery<br/>Final confirmation]
+    I --> J[Day before surgery<br/>Hospital admission]
     J --> K[Day of surgery]
 ```
 

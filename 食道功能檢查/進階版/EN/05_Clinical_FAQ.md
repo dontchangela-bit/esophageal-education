@@ -66,20 +66,20 @@ CCv4.0 has adopted a more cautious approach to the diagnosis and management of E
 
 ```mermaid
 flowchart TD
-    A[HRM: Elevated IRP<br>Peristalsis preserved] --> B{Supine + Upright<br>IRP both elevated?}
-    B -->|No, only one position| C[Inconclusive EGJOO<br>Do not diagnose]
+    A[HRM: Elevated IRP<br/>Peristalsis preserved] --> B{Supine + Upright<br/>IRP both elevated?}
+    B -->|No, only one position| C[Inconclusive EGJOO<br/>Do not diagnose]
     B -->|Yes| D{Rule out mechanical causes}
-    D --> D1[Endoscopy to exclude:<br>EoE, tumor, stricture]
-    D --> D2[Imaging to exclude:<br>external compression]
+    D --> D1[Endoscopy to exclude:<br/>EoE, tumor, stricture]
+    D --> D2[Imaging to exclude:<br/>external compression]
     D1 --> E{Mechanical cause found?}
     D2 --> E
-    E -->|Yes| F[Treat underlying cause<br>Not primary EGJOO]
-    E -->|No| G{Relevant clinical symptoms?<br>Dysphagia / chest pain}
-    G -->|No| H[Observation and follow-up<br>May not be clinically significant]
+    E -->|Yes| F[Treat underlying cause<br/>Not primary EGJOO]
+    E -->|No| G{Relevant clinical symptoms?<br/>Dysphagia / chest pain}
+    G -->|No| H[Observation and follow-up<br/>May not be clinically significant]
     G -->|Yes| I{FLIP evaluation}
-    I -->|DI decreased| J[Clinically relevant EGJOO<br>Consider treatment]
-    I -->|DI normal| K[Functional obstruction unlikely<br>Re-evaluate]
-    J --> L[Treatment options:<br>Balloon dilation / POEM / Observation]
+    I -->|DI decreased| J[Clinically relevant EGJOO<br/>Consider treatment]
+    I -->|DI normal| K[Functional obstruction unlikely<br/>Re-evaluate]
+    J --> L[Treatment options:<br/>Balloon dilation / POEM / Observation]
 ```
 
 **Key considerations**:

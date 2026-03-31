@@ -603,15 +603,16 @@
   <hr />
   <h2 id="臨床決策摘要">臨床決策摘要</h2>
   <pre class="mermaid"><code>flowchart TD
-    A[確診食道弛緩不能症&lt;br/&gt;確認亞型] --&gt; B{適合手術/內視鏡治療？}
+    A[確診食道弛緩不能症&lt;br/&gt;確認亞型] --&gt; B{適合手術/內視鏡治療?}
 
     B -- 否 --&gt; C[BTX 注射 / 藥物治療]
-    B -- 是 --&gt; D{亞型？}
+    B -- 是 --&gt; D{亞型?}
 
     D --&gt; E[Type I / Type II]
     D --&gt; F[Type III]
 
     E --&gt; G{患者因素考量}
+
     G --&gt; G1[擔心 GERD → LHM + Fundoplication]
     G --&gt; G2[偏好無傷口 → POEM]
     G --&gt; G3[希望非手術 → PD 分級擴張]
@@ -626,7 +627,7 @@
     I --&gt; J[執行治療]
     J --&gt; K[術後追蹤&lt;br/&gt;Eckardt Score + 客觀檢查]
 
-    K --&gt; L{Eckardt ≤ 3？}
+    K --&gt; L{Eckardt &lt;= 3?}
     L -- 是 --&gt; M[治療成功&lt;br/&gt;定期追蹤]
     L -- 否 --&gt; N[評估二線治療]
 

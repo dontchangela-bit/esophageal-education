@@ -315,24 +315,24 @@
     B --&gt;|No| B1[Perform endoscopy first]
     B1 --&gt; C
 
-    C --&gt;|LA C/D esophagitis&lt;br&gt;Long-segment Barrett&#39;s&lt;br&gt;Peptic stricture| D[Conclusive GERD&lt;br&gt;Begin treatment]
-    C --&gt;|LA A/B esophagitis| E[Inconclusive&lt;br&gt;Recommend repeat endoscopy off PPI&lt;br&gt;or reflux monitoring]
-    C --&gt;|Normal or non-specific findings| F{Perform reflux monitoring&lt;br&gt;off PPI}
+    C --&gt;|LA C/D esophagitis&lt;br/&gt;Long-segment Barretts&lt;br/&gt;Peptic stricture| D[Conclusive GERD&lt;br/&gt;Begin treatment]
+    C --&gt;|LA A/B esophagitis| E[Inconclusive&lt;br/&gt;Recommend repeat endoscopy off PPI&lt;br/&gt;or reflux monitoring]
+    C --&gt;|Normal or non-specific findings| F{Perform reflux monitoring&lt;br/&gt;off PPI}
 
     F --&gt; G{AET result?}
 
-    G --&gt;|AET &gt; 6%| H[Conclusive GERD]
-    G --&gt;|AET &lt; 4%&lt;br&gt;and reflux &lt;40 episodes| I[Pathological GERD excluded&lt;br&gt;Consider functional diagnosis]
-    G --&gt;|AET 4-6%&lt;br&gt;or reflux &gt;=40 but AET &lt;4%| J[Borderline zone]
+    G --&gt;|AET ﹥6%| H[Conclusive GERD]
+    G --&gt;|AET ﹤4%&lt;br/&gt;and reflux ﹤40 episodes| I[Pathological GERD excluded&lt;br/&gt;Consider functional diagnosis]
+    G --&gt;|AET 4-6%&lt;br/&gt;or reflux &gt;=40 but AET ﹤4%| J[Borderline zone]
 
     J --&gt; K{Adjunctive metric assessment}
-    K --&gt;|BI decreased +&lt;br&gt;PSPWI decreased +&lt;br&gt;Histopathology abnormal| L[Favors GERD]
-    K --&gt;|BI normal +&lt;br&gt;PSPWI normal +&lt;br&gt;Histology normal| M[Favors non-GERD&lt;br&gt;Consider functional diagnosis]
-    K --&gt;|Discordant results| N[Comprehensive clinical judgment&lt;br&gt;Consider extended monitoring or repeat testing]
+    K --&gt;|BI decreased +&lt;br/&gt;PSPWI decreased +&lt;br/&gt;Histopathology abnormal| L[Favors GERD]
+    K --&gt;|BI normal +&lt;br/&gt;PSPWI normal +&lt;br/&gt;Histology normal| M[Favors non-GERD&lt;br/&gt;Consider functional diagnosis]
+    K --&gt;|Discordant results| N[Comprehensive clinical judgment&lt;br/&gt;Consider extended monitoring or repeat testing]
 
     D --&gt; O{PPI treatment response?}
     O --&gt;|Symptoms improved| P[Continue treatment]
-    O --&gt;|Symptoms persist| Q[On-PPI&lt;br&gt;pH-impedance monitoring]</code></pre>
+    O --&gt;|Symptoms persist| Q[On-PPI&lt;br/&gt;pH-impedance monitoring]</code></pre>
   <hr />
   <h2 id="differential-diagnosis-of-functional-esophageal-disorders">Differential Diagnosis of Functional Esophageal Disorders</h2>
   <p>When GERD has been excluded, the following functional diagnoses should be considered (per Rome IV criteria):</p>

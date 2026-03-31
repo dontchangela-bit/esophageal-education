@@ -132,24 +132,24 @@ CCv4.0 employs a strict hierarchical diagnostic algorithm, interpreted in order 
 
 ```mermaid
 flowchart TD
-    A[HRM Test Completed<br>Supine + Upright + Provocative Testing] --> B{Supine IRP elevated?}
+    A[HRM Test Completed<br/>Supine + Upright + Provocative Testing] --> B{Supine IRP elevated?}
 
     B -->|Yes| C{Upright IRP also elevated?}
     B -->|No| H{Peristaltic function assessment}
 
     C -->|Yes| D{Peristaltic pattern?}
-    C -->|No| G[Inconclusive EGJOO<br>Further evaluation needed<br>FLIP / Barium esophagram]
+    C -->|No| G[Inconclusive EGJOO<br/>Further evaluation needed<br/>FLIP / Barium esophagram]
 
     D -->|No peristalsis + no pressurization| D1[Conclusive Type I Achalasia]
     D -->|No peristalsis + panesophageal pressurization >=20%| D2[Conclusive Type II Achalasia]
     D -->|No peristalsis + premature contractions >=20%| D3[Conclusive Type III Achalasia]
-    D -->|Peristalsis preserved| D4[Conclusive EGJOO<br>Rule out mechanical obstruction]
+    D -->|Peristalsis preserved| D4[Conclusive EGJOO<br/>Rule out mechanical obstruction]
 
-    H -->|DL <4.5s >=20%| I[DES: Distal Esophageal Spasm]
-    H -->|DCI >8000 >=20%| J[Jackhammer: Hypercontractile]
-    H -->|100% DCI <100| K[Absent Contractility]
-    H -->|>70% ineffective| L[IEM: Ineffective Esophageal Motility]
-    H -->|>50% fragmented| M[Fragmented Peristalsis]
+    H -->|DL ﹤4.5s >=20%| I[DES: Distal Esophageal Spasm]
+    H -->|DCI ﹥8000 >=20%| J[Jackhammer: Hypercontractile]
+    H -->|100% DCI ﹤100| K[Absent Contractility]
+    H -->|﹥70% ineffective| L[IEM: Ineffective Esophageal Motility]
+    H -->|﹥50% fragmented| M[Fragmented Peristalsis]
     H -->|None of the above| N[Normal Esophageal Motility]
 ```
 

@@ -494,33 +494,33 @@
   <hr />
   <h2 id="治療演算法">治療演算法</h2>
   <pre class="mermaid"><code>flowchart TD
-    A[食道癌確診&lt;br&gt;完成分期] --&gt; B{臨床分期}
+    A[食道癌確診&lt;br/&gt;完成分期] --&gt; B{臨床分期}
 
-    B --&gt;|cTis-T1a N0| C[內視鏡切除 ER&lt;br&gt;NCCN/ESMO: 首選]
-    C --&gt; C1{切除標本&lt;br&gt;病理評估}
-    C1 --&gt;|完全切除&lt;br&gt;無不良因子| C2[追蹤監測]
-    C1 --&gt;|有不良因子&lt;br&gt;LVI/poor-diff/SM| C3[追加手術切除]
+    B --&gt;|cTis-T1a N0| C[內視鏡切除 ER&lt;br/&gt;NCCN/ESMO: 首選]
+    C --&gt; C1{切除標本&lt;br/&gt;病理評估}
+    C1 --&gt;|完全切除&lt;br/&gt;無不良因子| C2[追蹤監測]
+    C1 --&gt;|有不良因子&lt;br/&gt;LVI/poor-diff/SM| C3[追加手術切除]
 
     B --&gt;|cT1b-T2 N0| D{組織學}
-    D --&gt;|EAC| D1[手術&lt;br&gt;± 周術期化療]
-    D --&gt;|SCC| D2[手術&lt;br&gt;± nCRT]
+    D --&gt;|EAC| D1[手術&lt;br/&gt;± 周術期化療]
+    D --&gt;|SCC| D2[手術&lt;br/&gt;± nCRT]
 
     B --&gt;|cT3-T4a 或 N+| E{組織學}
-    E --&gt;|EAC| E1[NCCN: nCRT 首選&lt;br&gt;ESMO: periop chemo 或 nCRT]
-    E --&gt;|SCC| E2[nCRT + 手術&lt;br&gt;或 definitive CRT]
-    E1 --&gt; F[手術&lt;br&gt;MIE 建議於高手術量中心]
+    E --&gt;|EAC| E1[NCCN: nCRT 首選&lt;br/&gt;ESMO: periop chemo 或 nCRT]
+    E --&gt;|SCC| E2[nCRT + 手術&lt;br/&gt;或 definitive CRT]
+    E1 --&gt; F[手術&lt;br/&gt;MIE 建議於高手術量中心]
     E2 --&gt; F
 
     F --&gt; G{術後病理}
-    G --&gt;|pCR| G1[觀察 或&lt;br&gt;Adjuvant nivolumab]
-    G --&gt;|non-pCR| G2[Adjuvant nivolumab&lt;br&gt;CheckMate 577]
-    G --&gt;|未完成&lt;br&gt;periop chemo| G3[完成剩餘&lt;br&gt;術後化療]
+    G --&gt;|pCR| G1[觀察 或&lt;br/&gt;Adjuvant nivolumab]
+    G --&gt;|non-pCR| G2[Adjuvant nivolumab&lt;br/&gt;CheckMate 577]
+    G --&gt;|未完成&lt;br/&gt;periop chemo| G3[完成剩餘&lt;br/&gt;術後化療]
 
-    B --&gt;|cT4b| H[Definitive CRT&lt;br&gt;± 後續評估手術可行性]
+    B --&gt;|cT4b| H[Definitive CRT&lt;br/&gt;± 後續評估手術可行性]
 
-    B --&gt;|M1| I[全身性治療&lt;br&gt;Chemo + ICI&lt;br&gt;± 標靶治療]
+    B --&gt;|M1| I[全身性治療&lt;br/&gt;Chemo + ICI&lt;br/&gt;± 標靶治療]
 
-    G1 --&gt; J[追蹤監測&lt;br&gt;NCCN/ESMO protocol]
+    G1 --&gt; J[追蹤監測&lt;br/&gt;NCCN/ESMO protocol]
     G2 --&gt; J
     G3 --&gt; J</code></pre>
   <hr />

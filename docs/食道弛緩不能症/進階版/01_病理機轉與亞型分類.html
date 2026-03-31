@@ -174,23 +174,23 @@
   <pre class="mermaid"><code>flowchart TD
     A[臨床懷疑食道弛緩不能症&lt;br/&gt;吞嚥困難、逆流、胸痛] --&gt; B[上消化道內視鏡 EGD&lt;br/&gt;排除機械性阻塞/腫瘤]
 
-    B --&gt; C{內視鏡發現&lt;br/&gt;明確病因？}
+    B --&gt; C{內視鏡發現&lt;br/&gt;明確病因?}
     C -- 是 --&gt; D[針對性治療&lt;br/&gt;如腫瘤、狹窄等]
     C -- 否 --&gt; E[高解析度食道測壓 HRM]
 
-    E --&gt; F{IRP 是否升高？&lt;br/&gt;&gt; 正常上限}
+    E --&gt; F{IRP 是否升高?&lt;br/&gt;﹥ 正常上限}
     F -- 否 --&gt; G[非弛緩不能症&lt;br/&gt;考慮其他食道運動障礙]
-    F -- 是 --&gt; H{食道體部&lt;br/&gt;蠕動特徵？}
+    F -- 是 --&gt; H{食道體部&lt;br/&gt;蠕動特徵?}
 
     H --&gt; I[無蠕動 + 無顯著加壓&lt;br/&gt;→ Type I 經典型]
-    H --&gt; J[無蠕動 + 泛食道加壓&lt;br/&gt;≥ 20% 吞嚥 ≥ 30mmHg&lt;br/&gt;→ Type II 加壓型]
-    H --&gt; K[痙攣性收縮&lt;br/&gt;DL &lt; 4.5s ≥ 20% 吞嚥&lt;br/&gt;→ Type III 痙攣型]
+    H --&gt; J[無蠕動 + 泛食道加壓&lt;br/&gt;&gt;=20% 吞嚥 &gt;=30mmHg&lt;br/&gt;→ Type II 加壓型]
+    H --&gt; K[痙攣性收縮&lt;br/&gt;DL ﹤4.5s &gt;=20% 吞嚥&lt;br/&gt;→ Type III 痙攣型]
 
     I --&gt; L[鋇劑吞嚥 + TBE&lt;br/&gt;評估食道型態與排空]
     J --&gt; L
     K --&gt; L
 
-    L --&gt; M{是否有乙狀食道&lt;br/&gt;Sigmoid Esophagus？}
+    L --&gt; M{是否有乙狀食道&lt;br/&gt;Sigmoid Esophagus?}
     M -- 是 --&gt; N[評估食道功能殘餘&lt;br/&gt;考慮手術方式選擇]
     M -- 否 --&gt; O[依亞型選擇&lt;br/&gt;最適治療方案]
 

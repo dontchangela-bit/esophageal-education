@@ -19,14 +19,14 @@ Recovery after minimally invasive esophageal cancer surgery is a gradual process
 
 ```mermaid
 flowchart TD
-    A[Surgery completed] --> B[Days 1-2<br>ICU monitoring]
-    B --> C[Days 3-5<br>Transfer to general ward<br>Begin sipping water]
-    C --> D[Days 5-7<br>Swallow study<br>Begin liquid diet]
-    D --> E[Days 7-8<br>Discharge]
-    E --> F[Weeks 2-4<br>Home rest<br>Gradually increase activity]
-    F --> G[Weeks 4-6<br>Resume light activities<br>May drive]
-    G --> H[Weeks 6-8<br>Jejunostomy tube removal<br>Diet gradually normalizes]
-    H --> I[Months 3-6<br>Gradual return to<br>normal life and work]
+    A[Surgery completed] --> B[Days 1-2<br/>ICU monitoring]
+    B --> C[Days 3-5<br/>Transfer to general ward<br/>Begin sipping water]
+    C --> D[Days 5-7<br/>Swallow study<br/>Begin liquid diet]
+    D --> E[Days 7-8<br/>Discharge]
+    E --> F[Weeks 2-4<br/>Home rest<br/>Gradually increase activity]
+    F --> G[Weeks 4-6<br/>Resume light activities<br/>May drive]
+    G --> H[Weeks 6-8<br/>Jejunostomy tube removal<br/>Diet gradually normalizes]
+    H --> I[Months 3-6<br/>Gradual return to<br/>normal life and work]
 ```
 
 ---

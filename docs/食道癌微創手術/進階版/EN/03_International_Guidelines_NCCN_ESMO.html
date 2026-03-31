@@ -505,33 +505,33 @@
   <hr />
   <h2 id="treatment-algorithm">Treatment Algorithm</h2>
   <pre class="mermaid"><code>flowchart TD
-    A[Esophageal cancer confirmed&lt;br&gt;Staging complete] --&gt; B{Clinical stage}
+    A[Esophageal cancer confirmed&lt;br/&gt;Staging complete] --&gt; B{Clinical stage}
 
-    B --&gt;|cTis-T1a N0| C[Endoscopic resection ER&lt;br&gt;NCCN/ESMO: Preferred]
-    C --&gt; C1{Resection specimen&lt;br&gt;pathology assessment}
-    C1 --&gt;|Complete resection&lt;br&gt;no adverse features| C2[Surveillance]
-    C1 --&gt;|Adverse features present&lt;br&gt;LVI/poor-diff/SM| C3[Additional surgical resection]
+    B --&gt;|cTis-T1a N0| C[Endoscopic resection ER&lt;br/&gt;NCCN/ESMO: Preferred]
+    C --&gt; C1{Resection specimen&lt;br/&gt;pathology assessment}
+    C1 --&gt;|Complete resection&lt;br/&gt;no adverse features| C2[Surveillance]
+    C1 --&gt;|Adverse features present&lt;br/&gt;LVI/poor-diff/SM| C3[Additional surgical resection]
 
     B --&gt;|cT1b-T2 N0| D{Histology}
-    D --&gt;|EAC| D1[Surgery&lt;br&gt;± perioperative chemo]
-    D --&gt;|SCC| D2[Surgery&lt;br&gt;± nCRT]
+    D --&gt;|EAC| D1[Surgery&lt;br/&gt;± perioperative chemo]
+    D --&gt;|SCC| D2[Surgery&lt;br/&gt;± nCRT]
 
     B --&gt;|cT3-T4a or N+| E{Histology}
-    E --&gt;|EAC| E1[NCCN: nCRT preferred&lt;br&gt;ESMO: periop chemo or nCRT]
-    E --&gt;|SCC| E2[nCRT + surgery&lt;br&gt;or definitive CRT]
-    E1 --&gt; F[Surgery&lt;br&gt;MIE recommended at high-volume centers]
+    E --&gt;|EAC| E1[NCCN: nCRT preferred&lt;br/&gt;ESMO: periop chemo or nCRT]
+    E --&gt;|SCC| E2[nCRT + surgery&lt;br/&gt;or definitive CRT]
+    E1 --&gt; F[Surgery&lt;br/&gt;MIE recommended at high-volume centers]
     E2 --&gt; F
 
     F --&gt; G{Postoperative pathology}
-    G --&gt;|pCR| G1[Observation or&lt;br&gt;Adjuvant nivolumab]
-    G --&gt;|non-pCR| G2[Adjuvant nivolumab&lt;br&gt;CheckMate 577]
-    G --&gt;|Incomplete&lt;br&gt;periop chemo| G3[Complete remaining&lt;br&gt;postoperative chemo]
+    G --&gt;|pCR| G1[Observation or&lt;br/&gt;Adjuvant nivolumab]
+    G --&gt;|non-pCR| G2[Adjuvant nivolumab&lt;br/&gt;CheckMate 577]
+    G --&gt;|Incomplete&lt;br/&gt;periop chemo| G3[Complete remaining&lt;br/&gt;postoperative chemo]
 
-    B --&gt;|cT4b| H[Definitive CRT&lt;br&gt;± subsequent reassessment&lt;br&gt;of surgical feasibility]
+    B --&gt;|cT4b| H[Definitive CRT&lt;br/&gt;± subsequent reassessment&lt;br/&gt;of surgical feasibility]
 
-    B --&gt;|M1| I[Systemic therapy&lt;br&gt;Chemo + ICI&lt;br&gt;± targeted therapy]
+    B --&gt;|M1| I[Systemic therapy&lt;br/&gt;Chemo + ICI&lt;br/&gt;± targeted therapy]
 
-    G1 --&gt; J[Surveillance&lt;br&gt;NCCN/ESMO protocol]
+    G1 --&gt; J[Surveillance&lt;br/&gt;NCCN/ESMO protocol]
     G2 --&gt; J
     G3 --&gt; J</code></pre>
   <hr />

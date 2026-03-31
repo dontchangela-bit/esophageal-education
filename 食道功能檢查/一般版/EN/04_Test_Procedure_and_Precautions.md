@@ -24,14 +24,14 @@ flowchart TD
     A[Check in and verify identity] --> B[Healthcare team explains the procedure]
     B --> C[Assume seated or semi-upright position]
     C --> D[Local anesthetic sprayed into nasal passage]
-    D --> E[Wait for anesthesia to take effect<br>approximately 1-2 minutes]
+    D --> E[Wait for anesthesia to take effect<br/>approximately 1-2 minutes]
     E --> F[Insert pressure catheter through the nose]
-    F --> G[Once catheter reaches the stomach,<br>pull back slightly to position]
-    G --> H[Begin calibration<br>remain still for about 30 seconds]
-    H --> I[Lie down or sit up<br>per physician instructions]
-    I --> J[Swallow test<br>10 swallows of 5 mL water each]
-    J --> K[Possible provocative maneuvers<br>e.g., rapid sequential swallows]
-    K --> L[Test complete<br>catheter removed]
+    F --> G[Once catheter reaches the stomach,<br/>pull back slightly to position]
+    G --> H[Begin calibration<br/>remain still for about 30 seconds]
+    H --> I[Lie down or sit up<br/>per physician instructions]
+    I --> J[Swallow test<br/>10 swallows of 5 mL water each]
+    J --> K[Possible provocative maneuvers<br/>e.g., rapid sequential swallows]
+    K --> L[Test complete<br/>catheter removed]
     L --> M[Brief rest before leaving]
 ```
 
@@ -99,16 +99,16 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[Check in and verify identity] --> B[Healthcare team explains procedure<br>and teaches recorder use]
+    A[Check in and verify identity] --> B[Healthcare team explains procedure<br/>and teaches recorder use]
     B --> C[Nasal local anesthesia]
     C --> D[Place pH / impedance catheter]
-    D --> E[Secure catheter with tape<br>on nose and cheek]
+    D --> E[Secure catheter with tape<br/>on nose and cheek]
     E --> F[Connect to waist-worn recorder]
     F --> G[Teach symptom recording method]
-    G --> H[Go home and live normally<br>wear for 24 hours]
-    H --> I[Record meal times, lying down,<br>and symptom occurrences]
-    I --> J[Return to hospital next day<br>to remove catheter and recorder]
-    J --> K[Data downloaded for analysis<br>await report]
+    G --> H[Go home and live normally<br/>wear for 24 hours]
+    H --> I[Record meal times, lying down,<br/>and symptom occurrences]
+    I --> J[Return to hospital next day<br/>to remove catheter and recorder]
+    J --> K[Data downloaded for analysis<br/>await report]
 ```
 
 ### Detailed Step Descriptions
