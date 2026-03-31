@@ -5,8 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Types of Tests - 胸腔外科衛教資料</title>
   <link rel="stylesheet" href="../../../css/medical.css">
-  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-  <script>mermaid.initialize({startOnLoad:true, theme:'default'});</script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Fix Pandoc output: <pre class="mermaid"><code>...</code></pre>
+      // Mermaid needs: <pre class="mermaid">...</pre> with raw text
+      document.querySelectorAll('pre.mermaid').forEach(function(pre) {
+        var code = pre.querySelector('code');
+        if (code) {
+          // Get the text content (automatically decodes HTML entities)
+          pre.textContent = code.textContent;
+          pre.classList.add('mermaid');
+        }
+      });
+      mermaid.initialize({startOnLoad: true, theme: 'default', securityLevel: 'loose'});
+      mermaid.run();
+    });
+  </script>
 </head>
 <body>
   <div class="breadcrumb">
