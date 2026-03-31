@@ -19,7 +19,7 @@ High-resolution manometry (HRM) is the current gold standard for evaluating esop
 
 ### Catheter Specifications
 
-- **Diameter**: Approximately 4.2 mm (about 1/8 inch)
+- **Diameter**: Approximately 4.2 mm
 - **Number of sensors**: 36 circumferential pressure sensors
 - **Sensor spacing**: Approximately 1 cm
 - **Measurement range**: From the upper esophageal sphincter (UES) to the intragastric region

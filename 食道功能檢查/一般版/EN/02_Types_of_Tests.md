@@ -23,7 +23,7 @@ High-resolution manometry is the most important test for evaluating esophageal *
 
 ### Basic Principles
 
-- The catheter diameter is approximately 1/8 inch (about 4 mm), roughly the thickness of a large drinking straw
+- The catheter diameter is approximately 4.2 mm, roughly the thickness of a large drinking straw
 - The catheter has **36 pressure sensors** that provide a complete recording from the pharynx to the stomach
 - You will be asked to swallow water 10 times (approximately 5 mL each), and pressure changes are recorded for each swallow
 - A computer converts the pressure data into color images for physician interpretation

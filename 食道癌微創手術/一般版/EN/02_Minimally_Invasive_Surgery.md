@@ -74,7 +74,7 @@ Regardless of whether a traditional open or minimally invasive approach is used,
 | **Operative time** | Approximately 4-6 hours | Approximately 4-6 hours (similar) |
 | **Intraoperative blood loss** | Less | More |
 | **Postoperative pain** | Significantly less | More severe |
-| **Hospital stay** | Approximately 8 days | Approximately 10-14 days |
+| **Hospital stay** | 7-10 days (median 8 days) | Approximately 10-14 days |
 | **ICU stay** | Shorter | Longer |
 | **Pulmonary complications** | Reduced by 14-65% | Higher |
 | **Quality of life recovery** | Significantly better at 6 weeks postop | Slower recovery |
@@ -94,7 +94,7 @@ Regardless of whether a traditional open or minimally invasive approach is used,
    - Significantly reduced postoperative analgesic use
 
 2. **Faster Recovery**
-   - Average hospital stay of approximately 8 days (vs. 10-14 days for open surgery)
+   - Average hospital stay of 7-10 days, median approximately 8 days (vs. 10-14 days for open surgery)
    - Earlier mobilization out of bed
    - Faster return to daily life and work
 

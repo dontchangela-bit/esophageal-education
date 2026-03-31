@@ -129,6 +129,17 @@ When primary metrics fall in the borderline zone, the following adjunctive metri
   - Whether residual weakly acidic reflux correlates with symptoms
   - Symptom association analysis (SAP, SI)
 
+### Symptom Association Analysis Metrics
+
+| Metric | Full Name | Definition | Positive Threshold |
+|--------|-----------|-----------|-------------------|
+| SI | Symptom Index | Number of symptom episodes associated with reflux events / total symptom episodes x 100% | > 50% |
+| SAP | Symptom Association Probability | Statistical association between symptoms and reflux events calculated using Fisher's exact test | > 95% |
+
+- **SI** is simpler but does not account for the total number of reflux events, potentially overestimating the association
+- **SAP** has greater statistical rigor and is the primary metric recommended by the Lyon Consensus
+- When both are positive, the association between symptoms and reflux is most conclusive
+
 ### Monitoring Modality Selection
 
 | Modality | Advantages | Disadvantages | Applicable Scenario |

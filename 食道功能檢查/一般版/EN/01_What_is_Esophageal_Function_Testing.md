@@ -99,6 +99,21 @@ flowchart TD
 - **Patients with suspected achalasia**: Manometry is required for definitive diagnosis
 - **Patients with unexplained chest pain**: After ruling out cardiac causes, esophageal function testing can identify esophageal-related causes
 
+## Contraindications and Precautions
+
+The following situations may make esophageal function testing unsuitable. Please inform your physician in advance:
+
+| Condition | Explanation |
+|-----------|-------------|
+| Severe nasal abnormalities or recent nasal surgery | The catheter may not be able to pass through the nose smoothly |
+| Severe coagulopathy | Catheter insertion may cause bleeding |
+| Severe esophageal stricture or obstruction | The catheter may not be able to pass through the narrowed area |
+| Recent esophageal or gastric surgery | The test should be performed after the wound has healed |
+| Severe cardiopulmonary insufficiency | The test procedure may worsen discomfort |
+| Inability to follow swallowing commands | The test requires patient cooperation with swallowing actions |
+
+> The above are relative contraindications. Your physician will assess whether the test is appropriate based on your individual condition.
+
 ## Is the Test Safe?
 
 Esophageal function testing is overall a **safe and low-risk** procedure. Most people may experience mild discomfort during the test (such as a foreign body sensation in the nose or throat), but the majority complete the test without difficulty. Serious complications are extremely rare.

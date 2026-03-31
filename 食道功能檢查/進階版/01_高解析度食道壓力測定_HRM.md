@@ -19,7 +19,7 @@ topic: esophageal-function
 
 ### 導管規格
 
-- **直徑**：約 4.2 mm（約 1/8 英吋）
+- **直徑**：約 4.2 mm
 - **感測器數量**：36 個環狀壓力感測器 (circumferential pressure sensors)
 - **感測器間距**：約 1 cm
 - **測量範圍**：從上食道括約肌 (upper esophageal sphincter, UES) 到胃內

@@ -233,6 +233,42 @@
   <li>Symptom association analysis (SAP, SI)</li>
   </ul></li>
   </ul>
+  <h3 id="symptom-association-analysis-metrics">Symptom Association Analysis Metrics</h3>
+  <table>
+  <colgroup>
+  <col style="width: 16%" />
+  <col style="width: 22%" />
+  <col style="width: 22%" />
+  <col style="width: 38%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th>Metric</th>
+  <th>Full Name</th>
+  <th>Definition</th>
+  <th>Positive Threshold</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td>SI</td>
+  <td>Symptom Index</td>
+  <td>Number of symptom episodes associated with reflux events / total symptom episodes x 100%</td>
+  <td>&gt; 50%</td>
+  </tr>
+  <tr class="even">
+  <td>SAP</td>
+  <td>Symptom Association Probability</td>
+  <td>Statistical association between symptoms and reflux events calculated using Fisher’s exact test</td>
+  <td>&gt; 95%</td>
+  </tr>
+  </tbody>
+  </table>
+  <ul>
+  <li><strong>SI</strong> is simpler but does not account for the total number of reflux events, potentially overestimating the association</li>
+  <li><strong>SAP</strong> has greater statistical rigor and is the primary metric recommended by the Lyon Consensus</li>
+  <li>When both are positive, the association between symptoms and reflux is most conclusive</li>
+  </ul>
   <h3 id="monitoring-modality-selection">Monitoring Modality Selection</h3>
   <table>
   <colgroup>

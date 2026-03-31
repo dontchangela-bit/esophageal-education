@@ -23,7 +23,7 @@ Although the operative time is similar to traditional open surgery, postoperativ
 
 ## Q2: How long is the hospital stay?
 
-The average hospital stay for minimally invasive surgery is approximately **7-8 days**, including:
+The average hospital stay for minimally invasive surgery is **7-10 days, with a median of approximately 8 days**, including:
 - ICU monitoring for 1-2 days
 - General ward recovery for 5-6 days
 
@@ -88,7 +88,7 @@ Survival rates for esophageal cancer are influenced by **stage, treatment approa
 All surgeries carry risks. Possible complications of esophagectomy include:
 
 ### Common Complications
-- **Anastomotic leak**: Leakage at the esophageal-gastric connection site; incidence approximately 5-15%
+- **Anastomotic leak**: Leakage at the esophageal-gastric connection site; incidence approximately 5-15% in general centers, as low as 2-5% in high-volume centers
   - Experienced centers can keep the leak rate low (e.g., 2-5%)
 - **Pulmonary complications**: Pneumonia, atelectasis, etc.
   - MIE can reduce pulmonary complications by 14-65%

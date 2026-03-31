@@ -128,7 +128,7 @@ Esophageal achalasia currently **cannot be completely cured** because the degene
 
 **Disadvantages:**
 - Requires a specially trained physician
-- Higher post-operative GERD rate, approximately 20–50%
+- Higher post-operative GERD rate: approximately 20-50% (symptomatic); 30-60% (endoscopic esophagitis); most controllable with PPI
 - Does not include an anti-reflux procedure
 - Long-term (>10 years) data is still accumulating
 
@@ -158,7 +158,7 @@ Esophageal achalasia currently **cannot be completely cured** because the degene
 | Hospital stay | Not required | Not required | 0–1 day | 1–3 days | 1–2 days |
 | Symptom relief rate | Low (< 50%) | Moderate (70–80%) | Moderate–High (65–80%) | High (85–95%) | High (80–95%) |
 | Duration of effect | Short-lived | 6–12 months | Several years | Long-term | Long-term |
-| Post-procedure reflux risk | None | Low | Low | Moderate (10–30%) | Higher (20–50%) |
+| Post-procedure reflux risk | None | Low | Low | Moderate (10–30%) | Higher (20–50% symptomatic; 30–60% endoscopic esophagitis) |
 | Suitable for | Bridge therapy | Elderly / unfit for surgery | Most patients | Most patients | Most patients |
 
 ---

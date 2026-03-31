@@ -229,6 +229,42 @@
   <li>症狀關聯性分析（SAP、SI）</li>
   </ul></li>
   </ul>
+  <h3 id="症狀相關性分析指標">症狀相關性分析指標</h3>
+  <table>
+  <colgroup>
+  <col style="width: 21%" />
+  <col style="width: 21%" />
+  <col style="width: 21%" />
+  <col style="width: 35%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th>指標</th>
+  <th>全名</th>
+  <th>定義</th>
+  <th>陽性閾值</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td>SI</td>
+  <td>Symptom Index（症狀指數）</td>
+  <td>與逆流事件相關的症狀次數 / 總症狀次數 × 100%</td>
+  <td>&gt; 50%</td>
+  </tr>
+  <tr class="even">
+  <td>SAP</td>
+  <td>Symptom Association Probability（症狀關聯機率）</td>
+  <td>使用 Fisher’s exact test 計算症狀與逆流事件的統計關聯性</td>
+  <td>&gt; 95%</td>
+  </tr>
+  </tbody>
+  </table>
+  <ul>
+  <li><strong>SI</strong> 較簡單但未考量逆流事件總數，可能高估關聯性</li>
+  <li><strong>SAP</strong> 統計嚴謹度較高，為目前 Lyon 共識建議使用的主要指標</li>
+  <li>兩者皆陽性時，症狀與逆流的關聯性最為確定</li>
+  </ul>
   <h3 id="監測方式選擇">監測方式選擇</h3>
   <table>
   <colgroup>

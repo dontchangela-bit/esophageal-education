@@ -61,7 +61,7 @@ flowchart TD
 
 #### Step 4: Catheter Placement
 
-- The healthcare team gently inserts the thin catheter (approximately 4 mm diameter) through the nose
+- The healthcare team gently inserts the thin catheter (approximately 4.2 mm diameter) through the nose
 - When the catheter reaches the throat, you will be asked to swallow
 - **Important tip**: Swallow on cue when the team says "swallow now" -- this helps the catheter pass through more easily
 - Discomfort decreases significantly once the catheter passes the throat

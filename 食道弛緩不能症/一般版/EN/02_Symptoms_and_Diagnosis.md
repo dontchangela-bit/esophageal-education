@@ -38,7 +38,7 @@ Symptoms of esophageal achalasia usually **develop gradually**, may be subtle at
 ### 4. Chest Pain
 
 - Chest discomfort caused by esophageal spasm or food accumulation
-- Pain may mimic angina and needs to be differentiated from cardiac conditions
+- Pain may be mistaken for cardiac problems, but is actually caused by esophageal muscle spasm, requiring differential diagnosis from cardiac disease
 - Some patients experience notable chest pain during or after eating
 
 ### 5. Cough and Respiratory Symptoms
@@ -151,7 +151,15 @@ Confirming a diagnosis of esophageal achalasia typically requires the following 
 - Without sedation, you may experience nausea
 - Takes approximately 10 to 20 minutes
 
-### 4. Other Possible Supplementary Tests
+### 4. CT Scan or Endoscopic Ultrasound (EUS)
+
+When pseudoachalasia is suspected, your doctor may arrange a CT scan or endoscopic ultrasound:
+
+- **Pseudoachalasia**: Accounts for approximately 2-4% of all cases presenting as achalasia, usually caused by tumors at the esophagogastric junction, with symptoms very similar to true achalasia
+- **When to suspect**: Age > 55 years with symptom duration < 1 year, rapid weight loss, rapidly worsening dysphagia
+- **Purpose**: Rule out malignant tumors at the esophagus or gastric cardia
+
+### 5. Other Possible Supplementary Tests
 
 | Test | Purpose |
 |------|---------|

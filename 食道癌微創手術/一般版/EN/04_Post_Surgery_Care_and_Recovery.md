@@ -252,6 +252,38 @@ Regular follow-up visits are very important for early detection of recurrence or
 
 ---
 
+## Long-term Complication Management
+
+The following long-term conditions may occur after esophagectomy and require ongoing follow-up and management:
+
+### Anastomotic Stricture
+
+- **Incidence**: Approximately 10-20% of patients may develop this
+- **Symptoms**: Progressive difficulty swallowing solid foods
+- **Treatment**: Endoscopic balloon dilation, which is usually effective
+- **Follow-up**: If swallowing difficulty worsens, seek medical attention promptly
+
+### Gastroesophageal Reflux
+
+- **Cause**: Altered esophageal anatomy after surgery weakens the anti-reflux mechanism
+- **Treatment**: Long-term use of proton pump inhibitors (PPI)
+- **Lifestyle adjustments**: Elevate the head of the bed 15-20 cm; avoid eating before bedtime
+
+### Nutritional Deficiencies
+
+- **Common deficiencies**: Vitamin B12, iron, calcium, Vitamin D
+- **Cause**: Reduced stomach capacity and altered absorption area
+- **Treatment**: Regular blood tests and oral supplementation as needed
+- **Recommendation**: Monitor nutritional markers every 3-6 months
+
+### Dumping Syndrome
+
+- **Early dumping**: Bloating, diarrhea, cold sweats 15-30 minutes after eating
+- **Late dumping**: Hypoglycemia symptoms 1-3 hours after eating
+- **Treatment**: Small frequent meals, avoid high-sugar foods, reduce fluid intake during meals
+
+---
+
 ## Psychological Adjustment and Support
 
 Psychological adjustment after surgery is equally important:

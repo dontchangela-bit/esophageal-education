@@ -205,7 +205,7 @@ flowchart TD
 
 | Condition | Key Differentiating Features from Achalasia |
 |-----------|---------------------------------------------|
-| Pseudoachalasia | Caused by tumor (especially EGJ adenocarcinoma); short disease course, older age, marked weight loss; mass visible on CT/EUS |
+| Pseudoachalasia | Accounts for approximately 2-4% of all achalasia presentations; caused by tumor (especially EGJ adenocarcinoma); short disease course (< 1 year), age > 55, rapid weight loss; **CT scan or EUS workup required to rule out malignancy** |
 | EGJ Outflow Obstruction (EGJOO) | Elevated IRP but preserved esophageal peristalsis; may be early achalasia or other etiology |
 | Eosinophilic Esophagitis (EoE) | Typical ring-like ridges on endoscopy; eosinophilic infiltration on biopsy; manometry usually normal or EGJOO |
 | Distal Esophageal Spasm (DES) | Normal IRP; premature contractions present but in < 20% of swallows |
