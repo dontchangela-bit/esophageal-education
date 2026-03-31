@@ -36,8 +36,8 @@ topic: esophageal-cancer-MIS
 
 ![微創 vs 開胸手術切口比較](../images/mie_vs_open_incision.svg)
 
-<!-- 📷 待補充：達文西機器手臂手術實景照片 — 建議引用 PMC10824560 (CC-BY) 或院內照片 -->
-<!-- 來源：https://pmc.ncbi.nlm.nih.gov/articles/PMC10824560/ -->
+![達文西機器手臂食道切除術 (RAMIE) — 手術室配置](../images/davinci_robotic_surgery.jpg)
+*圖：達文西機器手臂輔助食道切除術 (RAMIE) 腹部階段的手術室配置。圖片來源：Grimminger PP, et al. JSLS. 2022;26(3). CC-BY. 原文：[PMC9255263](https://pmc.ncbi.nlm.nih.gov/articles/PMC9255263/)*
 
 ## 核心臨床試驗證據
 

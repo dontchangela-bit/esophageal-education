@@ -34,8 +34,8 @@ topic: achalasia
 | **恢復正常飲食** | 1~2 週 | 2~4 週 | 1~2 天 |
 | **恢復正常活動** | 3~7 天 | 2~4 週 | 1~2 天 |
 
-<!-- 📷 待補充：POEM vs Heller 手術入路比較圖 — 建議引用 AME Open Access (CC-BY-NC) -->
-<!-- 來源：https://ales.amegroups.org/article/view/10072/html -->
+![POEM vs Heller 手術入路比較 — POEM 經口內視鏡途徑 vs Heller 腹腔鏡途徑](../images/poem_vs_heller_approach.jpg)
+*圖：POEM（經口內視鏡）與 Heller Myotomy（腹腔鏡）的手術入路比較。圖片來源：Sanaei O, et al. Annals of Laparoscopic and Endoscopic Surgery. 2024. CC-BY-NC. 原文：[AME](https://ales.amegroups.org/article/view/10072/html)*
 
 ---
 
