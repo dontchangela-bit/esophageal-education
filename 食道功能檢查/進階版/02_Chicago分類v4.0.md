@@ -24,14 +24,17 @@ topic: esophageal-function
 
 ## 核心變革（相較 v3.0）
 
-<!-- 📷 圖片佔位 -->
-> **🖼️ 請插入圖片：**
-> - 建議圖片：Chicago Classification v4.0 各分類的典型 HRM 圖形
-> - 檔案放置：`../images/chicago_v4_examples.png`
-> - 來源：院內檢查報告或醫學文獻授權圖（需標註出處）
+![Chicago Classification v4.0 分層分類架構](../images/chicago_v4_hierarchy.jpg)
+*圖：Chicago Classification v4.0 分層診斷架構圖。圖片來源：Yadlapati R, et al. Neurogastroenterology & Motility. 2021;33(1):e14058. CC-BY. 原文：[PMC8034247](https://pmc.ncbi.nlm.nih.gov/articles/PMC8034247/)*
 
-![Chicago Classification v4.0 典型圖形](../images/chicago_v4_examples.png)
-<!-- 圖片佔位結束 -->
+![Chicago Classification v4.0 — 弛緩不能症三型 HRM 圖形](../images/chicago_v4_achalasia_subtypes.jpg)
+*圖：弛緩不能症三種亞型的典型 HRM 表現。圖片來源：同上。*
+
+![Chicago Classification v4.0 — EGJ 流出道阻塞](../images/chicago_v4_egjoo.jpg)
+*圖：食道胃接合處流出道阻塞 (EGJOO) 的 HRM 圖形。圖片來源：同上。*
+
+![Chicago Classification v4.0 — 蠕動障礙（痙攣/過度收縮）](../images/chicago_v4_spasticity.jpg)
+*圖：瀰漫性食道痙攣 (DES) 與鑿岩機食道 (Jackhammer) 的 HRM 圖形。圖片來源：同上。*
 
 ### 主要更新重點
 

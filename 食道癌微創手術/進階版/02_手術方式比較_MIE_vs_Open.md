@@ -36,14 +36,8 @@ topic: esophageal-cancer-MIS
 
 ![微創 vs 開胸手術切口比較](../images/mie_vs_open_incision.svg)
 
-<!-- 📷 圖片佔位 -->
-> **🖼️ 請插入圖片：**
-> - 建議圖片：達文西機器手臂 (da Vinci) 手術實景照片
-> - 檔案放置：`../images/davinci_robotic_surgery.png`
-> - 來源：院內手術室照片或廠商授權圖
-
-![達文西機器手臂手術](../images/davinci_robotic_surgery.png)
-<!-- 圖片佔位結束 -->
+<!-- 📷 待補充：達文西機器手臂手術實景照片 — 建議引用 PMC10824560 (CC-BY) 或院內照片 -->
+<!-- 來源：https://pmc.ncbi.nlm.nih.gov/articles/PMC10824560/ -->
 
 ## 核心臨床試驗證據
 

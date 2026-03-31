@@ -46,14 +46,8 @@ Clouse plot 是 HRM 特有的視覺化方式，以色彩編碼呈現壓力數據
 - **色彩**：代表壓力大小（通常暖色系 = 高壓，冷色系 = 低壓）
 - 能直觀地觀察吞嚥波 (peristaltic wave) 的完整傳播、括約肌的鬆弛 (relaxation) 與收縮 (contraction)
 
-<!-- 📷 圖片佔位 -->
-> **🖼️ 請插入圖片：**
-> - 建議圖片：正常 Clouse Plot 範例（顯示正常蠕動波）
-> - 檔案放置：`../images/normal_clouse_plot.png`
-> - 來源：院內檢查報告（需去識別化）
-
-![正常 Clouse Plot 範例](../images/normal_clouse_plot.png)
-<!-- 圖片佔位結束 -->
+![正常 HRM Clouse Plot — 顯示正常蠕動波形態](../images/normal_clouse_plot.jpg)
+*圖：正常食道蠕動的 HRM Clouse Plot。仰臥位（左）及直立位（右）的標準檢查姿勢。圖片來源：Yadlapati R, et al. Neurogastroenterology & Motility. 2021;33(1):e14058. CC-BY. 原文：[PMC8034247](https://pmc.ncbi.nlm.nih.gov/articles/PMC8034247/)*
 
 ---
 
